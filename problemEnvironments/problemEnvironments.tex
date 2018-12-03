@@ -3,9 +3,11 @@
 \title[Examples:]{Problem environments (2.4.5, pag. 6)}
 
 \newenvironment{problemEnv}[2][5in]{%
+\hang
 \problemEnvironmentStart{#1}{#2}%
 }{%
 \problemEnvironmentEnd%
+\hung
 }
 
 \newenvironment{xProblem}[1][5in]{%
