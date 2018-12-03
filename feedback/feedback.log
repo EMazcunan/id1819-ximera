@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2018.10.12)  3 DEC 2018 22:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2018.10.12)  3 DEC 2018 22:50
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -936,7 +936,7 @@ Package babel Info: Making " an active character on input line 561.
 Package babel Info: Making . an active character on input line 662.
 Package babel Info: Making < an active character on input line 707.
 Package babel Info: Making > an active character on input line 707.
-)))
+))
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/inputenx.sty
 Package: inputenx 2016/05/16 v1.11 Enhanced input encoding handling (HO)
 
@@ -1266,7 +1266,7 @@ Now handling font encoding PD1 ...
    defining Unicode char U+2026 (decimal 8230)
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
-))
+)))
 (/home/eva/texmf/tex/latex/local/ximeraLatex/ximera.cfg
 (/usr/share/texlive/texmf-dist/tex/generic/tex4ht/tex4ht.4ht
 version 2017-05-09-09:21
@@ -2007,7 +2007,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 62.
 Here is how much of TeX's memory you used:
  36229 strings out of 492983
  785271 string characters out of 6134921
- 1117901 words of memory out of 5000000
+ 1117902 words of memory out of 5000000
  38961 multiletter control sequences out of 15000+600000
  5533 words of font info for 24 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
