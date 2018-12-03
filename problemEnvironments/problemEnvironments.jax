@@ -1,41 +1,78 @@
 \newenvironment {prompt}{}{}
+\newcommand {\DeclareMathOperator }[2]{\@OldDeclareMathOperator {##1}{##2}\immediate \write \myfile {\unexpanded {\DeclareMathOperator }{\unexpanded {##1}}{\unexpanded {##2}}}}
 \newcommand {\ungraded }[0]{}
-\newcommand {\IfBabelLayout }[3]{#3}
+\newcommand {\bbl@trace }[1]{}
+\newcommand {\reserved@a }[0]{}
+\newcommand {\reserved@a }[0]{\bbl@error {Not yet available}{Find an armchair, sit down and wait}}
+\newcommand {\IfBabelLayout }[3]{##3}
+\newcommand {\shorthandon }[1]{\bbl@switch@sh \@ne ##1\@nnil }
+\newcommand {\shorthandoff  }[0]{\@ifstar {\bbl@shorthandoff \tw@ }{\bbl@shorthandoff \z@ }}
+\newcommand {\languageattribute }[2]{\def \bbl@tempc {##1}\bbl@fixname \bbl@tempc \bbl@iflanguage \bbl@tempc {\bbl@vforeach {##2}{\ifx \bbl@known@attribs \@undefined \in@false \else \bbl@xin@ {,\bbl@tempc -####1,}{,\bbl@known@attribs ,}\fi \ifin@ \bbl@warning {You have more than once selected the attribute '####1'\\for language ##1}\else \bbl@exp {\\\bbl@add@list \\\bbl@known@attribs {\bbl@tempc -####1}}\edef \bbl@tempa {\bbl@tempc -####1}\expandafter \bbl@ifknown@ttrib \expandafter {\bbl@tempa }\bbl@attributes {\csname \bbl@tempc @attr@####1\endcsname }{\@attrerr {\bbl@tempc }{####1}}\fi }}}
+\newcommand {\@attrerr }[2]{\bbl@error {The attribute ##2 is unknown for language ##1.}{Your command will be ignored, type <return> to proceed}}
 \newcommand {\babelnullhyphen }[0]{\char \hyphenchar \font }
+\newcommand {\BabelLower }[2]{\ifnum \lccode ##1=##2\else \babel@savevariable {\lccode ##1}\lccode ##1=##2\relax \fi }
+\newcommand {\BabelLowerMM }[4]{\@tempcnta =##1\relax \@tempcntb =##4\relax \def \bbl@tempa {\ifnum \@tempcnta >##2\else \@expandtwoargs \BabelLower {\the \@tempcnta }{\the \@tempcntb }\advance \@tempcnta ##3\relax \advance \@tempcntb ##3\relax \expandafter \bbl@tempa \fi }\bbl@tempa }
+\newcommand {\BabelLowerMO }[4]{\@tempcnta =##1\relax \def \bbl@tempa {\ifnum \@tempcnta >##2\else \@expandtwoargs \BabelLower {\the \@tempcnta }{##4}\advance \@tempcnta ##3 \expandafter \bbl@tempa \fi }\bbl@tempa }
+\newcommand {\OT1\quotedblbase }[0]{\save@sf@q {\set@low@box {\textquotedblright \/}\box \z@ \kern -.04em\bbl@allowhyphens }}
 \newcommand {\?\quotedblbase }[0]{\UseTextSymbol {OT1}{\quotedblbase }}
+\newcommand {\OT1\quotesinglbase }[0]{\save@sf@q {\set@low@box {\textquoteright \/}\box \z@ \kern -.04em\bbl@allowhyphens }}
 \newcommand {\?\quotesinglbase }[0]{\UseTextSymbol {OT1}{\quotesinglbase }}
+\newcommand {\OT1\guillemotleft }[0]{\ifmmode \ll \else \save@sf@q {\nobreak \raise .2ex\hbox {$\scriptscriptstyle \ll $}\bbl@allowhyphens }\fi }
+\newcommand {\OT1\guillemotright }[0]{\ifmmode \gg \else \save@sf@q {\nobreak \raise .2ex\hbox {$\scriptscriptstyle \gg $}\bbl@allowhyphens }\fi }
 \newcommand {\?\guillemotleft }[0]{\UseTextSymbol {OT1}{\guillemotleft }}
 \newcommand {\?\guillemotright }[0]{\UseTextSymbol {OT1}{\guillemotright }}
+\newcommand {\OT1\guilsinglleft }[0]{\ifmmode <\else \save@sf@q {\nobreak \raise .2ex\hbox {$\scriptscriptstyle <$}\bbl@allowhyphens }\fi }
+\newcommand {\OT1\guilsinglright }[0]{\ifmmode >\else \save@sf@q {\nobreak \raise .2ex\hbox {$\scriptscriptstyle >$}\bbl@allowhyphens }\fi }
 \newcommand {\?\guilsinglleft }[0]{\UseTextSymbol {OT1}{\guilsinglleft }}
 \newcommand {\?\guilsinglright }[0]{\UseTextSymbol {OT1}{\guilsinglright }}
+\newcommand {\OT1\ij }[0]{i\kern -0.02em\bbl@allowhyphens j}
+\newcommand {\OT1\IJ }[0]{I\kern -0.02em\bbl@allowhyphens J}
 \newcommand {\T1\ij }[0]{\char 188}
 \newcommand {\T1\IJ }[0]{\char 156}
+\newcommand {\reserved@a }[0]{\UseTextSymbol {OT1}{\ij }}
+\newcommand {\reserved@a }[0]{\UseTextSymbol {OT1}{\IJ }}
+\newcommand {\OT1\dj }[0]{\ddj@ d}
+\newcommand {\OT1\DJ }[0]{\DDJ@ D}
 \newcommand {\?\dj }[0]{\UseTextSymbol {OT1}{\dj }}
 \newcommand {\?\DJ }[0]{\UseTextSymbol {OT1}{\DJ }}
 \newcommand {\OT1\SS }[0]{SS}
+\newcommand {\reserved@a }[0]{\UseTextSymbol {OT1}{\SS }}
 \newcommand {\?\glq }[0]{\textormath {\quotesinglbase }{\mbox {\quotesinglbase }}}
 \newcommand {\T1\grq }[0]{\textormath {\textquoteleft }{\mbox {\textquoteleft }}}
 \newcommand {\TU\grq }[0]{\textormath {\textquoteleft }{\mbox {\textquoteleft }}}
+\newcommand {\OT1\grq }[0]{\save@sf@q {\kern -.0125em \textormath {\textquoteleft }{\mbox {\textquoteleft }}\kern .07em\relax }}
 \newcommand {\?\grq }[0]{\UseTextSymbol {OT1}\grq }
 \newcommand {\?\glqq }[0]{\textormath {\quotedblbase }{\mbox {\quotedblbase }}}
 \newcommand {\T1\grqq }[0]{\textormath {\textquotedblleft }{\mbox {\textquotedblleft }}}
 \newcommand {\TU\grqq }[0]{\textormath {\textquotedblleft }{\mbox {\textquotedblleft }}}
+\newcommand {\OT1\grqq }[0]{\save@sf@q {\kern -.07em \textormath {\textquotedblleft }{\mbox {\textquotedblleft }}\kern .07em\relax }}
 \newcommand {\?\grqq }[0]{\UseTextSymbol {OT1}\grqq }
 \newcommand {\?\flq }[0]{\textormath {\guilsinglleft }{\mbox {\guilsinglleft }}}
 \newcommand {\?\frq }[0]{\textormath {\guilsinglright }{\mbox {\guilsinglright }}}
 \newcommand {\?\flqq }[0]{\textormath {\guillemotleft }{\mbox {\guillemotleft }}}
 \newcommand {\?\frqq }[0]{\textormath {\guillemotright }{\mbox {\guillemotright }}}
+\newcommand {\reserved@a }[3]{##3}
+\newcommand {\BabelPatchSection }[1]{\@ifundefined {##1}{}{\bbl@exp {\let \<bbl@ss@##1>\<##1>}\@namedef {##1}{\@ifstar {\bbl@presec@s {##1}}{\@dblarg {\bbl@presec@x {##1}}}}}}
 \newcommand {\BabelDateSpace }[0]{\nobreakspace }
-\newcommand {\BabelDated }[1]{{\number #1}}
-\newcommand {\BabelDatedd }[1]{{\ifnum #1<10 0\fi \number #1}}
-\newcommand {\BabelDateM }[1]{{\number #1}}
-\newcommand {\BabelDateMM }[1]{{\ifnum #1<10 0\fi \number #1}}
-\newcommand {\BabelDateMMMM }[1]{{\csname month\romannumeral #1name\endcsname }}
-\newcommand {\BabelDatey }[1]{{\number #1}}
-\newcommand {\BabelDateyyyy }[1]{{\number #1}}
-\newcommand {\FOREIGNLANGUAGE  }[1]{\lowercase {\foreignlanguage {#1}}}
+\newcommand {\BabelDateDot }[0]{.\@ }
+\newcommand {\BabelDated }[1]{{\number ##1}}
+\newcommand {\BabelDatedd }[1]{{\ifnum ##1<10 0\fi \number ##1}}
+\newcommand {\BabelDateM }[1]{{\number ##1}}
+\newcommand {\BabelDateMM }[1]{{\ifnum ##1<10 0\fi \number ##1}}
+\newcommand {\BabelDateMMMM }[1]{{\csname month\romannumeral ##1name\endcsname }}
+\newcommand {\BabelDatey }[1]{{\number ##1}}
+\newcommand {\BabelDateyy }[1]{{\ifnum ##1<10 0\number ##1 \else \ifnum ##1<100 \number ##1 \else \ifnum ##1<1000 \expandafter \@gobble \number ##1 \else \ifnum ##1<10000 \expandafter \@gobbletwo \number ##1 \else \bbl@error {Currently two-digit years are restricted to the\\ range 0-9999.}{There is little you can do. Sorry.}\fi \fi \fi \fi }}
+\newcommand {\BabelDateyyyy }[1]{{\number ##1}}
+\newcommand {\reserved@a }[3]{\def \reserved@a {##3}\expandafter \ifx \csname ##1@##2\endcsname \reserved@a \else \@tempswatrue \fi }
+\newcommand {\FOREIGNLANGUAGE  }[1]{\lowercase {\foreignlanguage {##1}}}
 \newcommand {\BabelNonASCII }[0]{LGR,X2,OT2,OT3,OT6,LHE,LWN,LMA,LMC,LMS,LMU,}
 \newcommand {\latintext  }[0]{\fontencoding {\latinencoding }\selectfont \def \encodingdefault {\latinencoding }}
+\newcommand {\textlatin  }[1]{\ifmmode \nfss@text {\latintext ##1}\else \hmode@bgroup \text@command {##1}\latintext \check@icl ##1\check@icr \expandafter \egroup \fi }
+\newcommand {\bbl@ev@babel-bidi@afterextras }[\bbl@tempb ]{\bbl@switchdir }
+\newcommand {\babelsublr  }[1]{\leavevmode {\bbl@textdir \z@ ##1}}
+\newcommand {\SetHyphenMap }[1]{\bbl@forlang \bbl@tempa {\expandafter \bbl@stringdef \csname \bbl@tempa @bbl@hyphenmap\endcsname {##1}}}
+\newcommand {\bbl@ev@spanish@stringprocess }[\bbl@tempb ]{\protected@edef \BabelString {\BabelString }}
+\newcommand {\bbl@ev@spanish@stringprocess }[\bbl@tempb ]{\protected@edef \BabelString {\BabelString }}
 \newcommand {\spanishprefacename }[0]{Prefacio}
 \newcommand {\spanishrefname }[0]{Referencias}
 \newcommand {\spanishabstractname }[0]{Resumen}
@@ -83,6 +120,18 @@
 \newcommand {\spanishucmonthxiiname }[0]{Diciembre}
 \newcommand {\spanishtoday }[0]{\spanishdate {\year }{\month }{\day }}
 \newcommand {\spanishToday }[0]{\spanishDate {\year }{\month }{\day }}
+\newcommand {\spanishdate }[0]{\es@date {}}
+\newcommand {\spanishDate }[0]{\es@date {uc}}
+\newcommand {\quoting }[0]{\leavevmode \advance \es@quotdepth \@ne \csname lquot\romannumeral \es@quotdepth \endcsname \ifnum \es@quotdepth =\@ne \es@listquotfalse \let \es@quotpar \everypar \let \everypar \es@quottoks \everypar \expandafter {\the \es@quotpar }\es@quotpar {\the \everypar \ifes@listquot \global \es@listquotfalse \else \es@quotcont \fi }\fi \toks@ \expandafter {\es@quotcont }\edef \es@quotcont {\the \toks@ \expandafter \noexpand \csname rquot\romannumeral \es@quotdepth \endcsname }}
+\newcommand {\es@listquot  }[0]{\csname rquot\romannumeral \es@quotdepth \endcsname \global \es@listquottrue }
+\newcommand {\spanishlcroman }[0]{\def \@roman ####1{\romannumeral ####1}}
+\newcommand {\spanishucroman }[0]{\def \@roman {\@Roman }}
+\newcommand {\spanishscroman }[0]{\def \@roman ####1{\es@roman {\romannumeral ####1}}}
+\newcommand {\OT1\guillemotleft }[0]{\es@guillemot \ll {40}}
+\newcommand {\OT1\guillemotright }[0]{\es@guillemot \gg {41}}
+\newcommand {\es@scroman  }[0]{\es@xlsc \uppercase \@firstofone }
 \newcommand {\CurrentInputEncodingName }[0]{}
 \newcommand {\CurrentInputEncodingOption }[0]{}
-\newcommand {\HyperFirstAtBeginDocument }[0]{\AtBeginDocument }
+\newcommand {\BeforeInputEncoding }[0]{\g@addto@macro \IEX@BeforeHook }
+\newcommand {\AfterInputEncoding }[0]{\g@addto@macro \IEX@AfterHook }
+\newcommand {\InputEncoding }[1]{\let \InputEncodingNameOld \CurrentInputEncodingName \let \InputEncodingOptionOld \CurrentInputEncodingOption \edef \InputEncodingNew {##1}\IEX@BeforeHook \IEX@LookupEncoding \InputEncodingNew \ifx \CurrentInputEncodingOption \@empty \else \IEX@SaveFileCatcodes \IEX@SetFileCatcodes \inputencoding {\CurrentInputEncodingOption }\IEX@RestoreFileCatcodes \fi \IEX@AfterHook }

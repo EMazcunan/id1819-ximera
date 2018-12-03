@@ -1,4 +1,7 @@
-\babel@toc {spanish}{}
 \contentsline {part}{I\hspace {1em}Tipos de actividades en Ximera}{3}{part.1}
-\contentsline {part}{II\hspace {1em}Crear contenidos con Ximera}{3}{part.2}
+\contentsline {section}{Problem environments (2.4.5, pag. 6)}{3}{section*.1}
+\contentsline {section}{Answerables (2.10.1, pag. 22)}{5}{section*.2}
+\contentsline {section}{Multiple choice and the like (2.10.2, pag 23; 2.10.4, pag. 24)}{6}{section*.3}
+\contentsline {section}{Feedback (2.12.2, pag. 27)}{7}{section*.4}
+\contentsline {part}{II\hspace {1em}Crear contenidos con Ximera}{8}{part.2}
 \contentsfinish 
