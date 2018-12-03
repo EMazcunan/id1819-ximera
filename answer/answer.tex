@@ -1,0 +1,38 @@
+% https://github.com/XimeraProject/examples/blob/master/answer/answer.tex
+
+\documentclass{ximera}
+
+\input{../preamble.tex}
+
+\title[Examples:]{Answerables (2.10.1, pag. 22)}
+\author{Bart Snapp \and Rodney Austin}
+
+\input{../preamble.tex}
+
+\begin{document}
+
+
+\begin{abstract}
+  An example of various uses of \texttt{answer}
+\end{abstract}
+\maketitle
+
+A math answer
+
+Type $2$: $\answer{2}$
+
+Opción  {\ttfamily given} (defecto false): Determines if answer is shown in handout mode. 
+When given=true, show answer in handout mode, show answer in “given box” outside handout mode. 
+
+Type 2: $\answer[given]{2}$
+
+When given=false, do not show answer in handout mode, show answer outside handout mode  
+$\answer[given=false]{2}$
+
+Opción {\ttfamily tolerance}: Used for setting numeric answer tolerance for online student input.
+
+Type $0.5\pm 0.2$: $\answer[tolerance=.2]{\frac{1}{2}}$
+
+
+
+\end{document}

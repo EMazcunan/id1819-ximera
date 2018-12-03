@@ -1,0 +1,4 @@
+\babel@toc {spanish}{}
+\contentsline {part}{I\hspace {1em}Tipos de actividades en Ximera}{3}{part.1}
+\contentsline {part}{II\hspace {1em}Crear contenidos con Ximera}{3}{part.2}
+\contentsfinish 

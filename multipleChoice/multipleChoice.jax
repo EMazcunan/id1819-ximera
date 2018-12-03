@@ -1,0 +1,88 @@
+\newenvironment {prompt}{}{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\IfBabelLayout }[3]{#3}
+\newcommand {\babelnullhyphen }[0]{\char \hyphenchar \font }
+\newcommand {\?\quotedblbase }[0]{\UseTextSymbol {OT1}{\quotedblbase }}
+\newcommand {\?\quotesinglbase }[0]{\UseTextSymbol {OT1}{\quotesinglbase }}
+\newcommand {\?\guillemotleft }[0]{\UseTextSymbol {OT1}{\guillemotleft }}
+\newcommand {\?\guillemotright }[0]{\UseTextSymbol {OT1}{\guillemotright }}
+\newcommand {\?\guilsinglleft }[0]{\UseTextSymbol {OT1}{\guilsinglleft }}
+\newcommand {\?\guilsinglright }[0]{\UseTextSymbol {OT1}{\guilsinglright }}
+\newcommand {\T1\ij }[0]{\char 188}
+\newcommand {\T1\IJ }[0]{\char 156}
+\newcommand {\?\dj }[0]{\UseTextSymbol {OT1}{\dj }}
+\newcommand {\?\DJ }[0]{\UseTextSymbol {OT1}{\DJ }}
+\newcommand {\OT1\SS }[0]{SS}
+\newcommand {\?\glq }[0]{\textormath {\quotesinglbase }{\mbox {\quotesinglbase }}}
+\newcommand {\T1\grq }[0]{\textormath {\textquoteleft }{\mbox {\textquoteleft }}}
+\newcommand {\TU\grq }[0]{\textormath {\textquoteleft }{\mbox {\textquoteleft }}}
+\newcommand {\?\grq }[0]{\UseTextSymbol {OT1}\grq }
+\newcommand {\?\glqq }[0]{\textormath {\quotedblbase }{\mbox {\quotedblbase }}}
+\newcommand {\T1\grqq }[0]{\textormath {\textquotedblleft }{\mbox {\textquotedblleft }}}
+\newcommand {\TU\grqq }[0]{\textormath {\textquotedblleft }{\mbox {\textquotedblleft }}}
+\newcommand {\?\grqq }[0]{\UseTextSymbol {OT1}\grqq }
+\newcommand {\?\flq }[0]{\textormath {\guilsinglleft }{\mbox {\guilsinglleft }}}
+\newcommand {\?\frq }[0]{\textormath {\guilsinglright }{\mbox {\guilsinglright }}}
+\newcommand {\?\flqq }[0]{\textormath {\guillemotleft }{\mbox {\guillemotleft }}}
+\newcommand {\?\frqq }[0]{\textormath {\guillemotright }{\mbox {\guillemotright }}}
+\newcommand {\BabelDateSpace }[0]{\nobreakspace }
+\newcommand {\BabelDated }[1]{{\number #1}}
+\newcommand {\BabelDatedd }[1]{{\ifnum #1<10 0\fi \number #1}}
+\newcommand {\BabelDateM }[1]{{\number #1}}
+\newcommand {\BabelDateMM }[1]{{\ifnum #1<10 0\fi \number #1}}
+\newcommand {\BabelDateMMMM }[1]{{\csname month\romannumeral #1name\endcsname }}
+\newcommand {\BabelDatey }[1]{{\number #1}}
+\newcommand {\BabelDateyyyy }[1]{{\number #1}}
+\newcommand {\FOREIGNLANGUAGE  }[1]{\lowercase {\foreignlanguage {#1}}}
+\newcommand {\BabelNonASCII }[0]{LGR,X2,OT2,OT3,OT6,LHE,LWN,LMA,LMC,LMS,LMU,}
+\newcommand {\latintext  }[0]{\fontencoding {\latinencoding }\selectfont \def \encodingdefault {\latinencoding }}
+\newcommand {\spanishprefacename }[0]{Prefacio}
+\newcommand {\spanishrefname }[0]{Referencias}
+\newcommand {\spanishabstractname }[0]{Resumen}
+\newcommand {\spanishbibname }[0]{Bibliograf\'{\i }a}
+\newcommand {\spanishchaptername }[0]{Cap\'{\i }tulo}
+\newcommand {\spanishappendixname }[0]{Ap\'{e}ndice}
+\newcommand {\spanishlistfigurename }[0]{\'{I}ndice de figuras}
+\newcommand {\spanishlisttablename }[0]{\'{I}ndice de cuadros}
+\newcommand {\spanishindexname }[0]{\'{I}ndice alfab\'{e}tico}
+\newcommand {\spanishfigurename }[0]{Figura}
+\newcommand {\spanishtablename }[0]{Cuadro}
+\newcommand {\spanishpartname }[0]{Parte}
+\newcommand {\spanishenclname }[0]{Adjunto}
+\newcommand {\spanishccname }[0]{Copia a}
+\newcommand {\spanishheadtoname }[0]{A}
+\newcommand {\spanishpagename }[0]{p\'{a}gina}
+\newcommand {\spanishseename }[0]{v\'{e}ase}
+\newcommand {\spanishalsoname }[0]{v\'{e}ase tambi\'{e}n}
+\newcommand {\spanishproofname }[0]{Demostraci\'{o}n}
+\newcommand {\spanishglossaryname }[0]{Glosario}
+\newcommand {\spanishcontentsname }[0]{\'{I}ndice}
+\newcommand {\spanishmonthiname }[0]{enero}
+\newcommand {\spanishmonthiiname }[0]{febrero}
+\newcommand {\spanishmonthiiiname }[0]{marzo}
+\newcommand {\spanishmonthivname }[0]{abril}
+\newcommand {\spanishmonthvname }[0]{mayo}
+\newcommand {\spanishmonthviname }[0]{junio}
+\newcommand {\spanishmonthviiname }[0]{julio}
+\newcommand {\spanishmonthviiiname }[0]{agosto}
+\newcommand {\spanishmonthixname }[0]{septiembre}
+\newcommand {\spanishmonthxname }[0]{octubre}
+\newcommand {\spanishmonthxiname }[0]{noviembre}
+\newcommand {\spanishmonthxiiname }[0]{diciembre}
+\newcommand {\spanishucmonthiname }[0]{Enero}
+\newcommand {\spanishucmonthiiname }[0]{Febrero}
+\newcommand {\spanishucmonthiiiname }[0]{Marzo}
+\newcommand {\spanishucmonthivname }[0]{Abril}
+\newcommand {\spanishucmonthvname }[0]{Mayo}
+\newcommand {\spanishucmonthviname }[0]{Junio}
+\newcommand {\spanishucmonthviiname }[0]{Julio}
+\newcommand {\spanishucmonthviiiname }[0]{Agosto}
+\newcommand {\spanishucmonthixname }[0]{Septiembre}
+\newcommand {\spanishucmonthxname }[0]{Octubre}
+\newcommand {\spanishucmonthxiname }[0]{Noviembre}
+\newcommand {\spanishucmonthxiiname }[0]{Diciembre}
+\newcommand {\spanishtoday }[0]{\spanishdate {\year }{\month }{\day }}
+\newcommand {\spanishToday }[0]{\spanishDate {\year }{\month }{\day }}
+\newcommand {\CurrentInputEncodingName }[0]{}
+\newcommand {\CurrentInputEncodingOption }[0]{}
+\newcommand {\HyperFirstAtBeginDocument }[0]{\AtBeginDocument }
