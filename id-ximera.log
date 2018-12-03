@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2018.10.12)  4 DEC 2018 00:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2018.10.12)  4 DEC 2018 00:53
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2027,4 +2027,4 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  75i,5n,100p,1223b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on id-ximera.dvi (4 pages, 10016 bytes).
+Output written on id-ximera.dvi (4 pages, 10156 bytes).
