@@ -4,3 +4,9 @@
 
 \usepackage{lipsum}
 
+\renewenvironment{question}[1][2in]{%
+	\problemEnvironmentStart{#1}{Pregunta}%
+}{%
+	\problemEnvironmentEnd%
+}
+
