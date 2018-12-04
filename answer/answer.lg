@@ -16,15 +16,12 @@ htfcss: ecti  font-style: italic;
 htfcss: ectt  font-family: monospace;
 File: answer.html
 File: answer.tmp
-File: answer.tmp
-File: answer-1.svg
 Font_Css("4"): .small-caps{font-variant: small-caps; }
 Font_Css("10"): .htf-cmbx {font-weight: bold; font-style:normal;}
 Font_Css("12"): .htf-calligraphy {font-family:cursive}
 Font_Css("14"): .htf-italic {font-style: italic;}
 Font_Css("16"): .htf-bold {font-weight: bold;}
 Font_Css("12"): .htf-calligraphy-bold {font-family:cursive ; font-weight: bold; }
---- needs --- answer.idv[2] ==> answer0x.png ---
 --- characters ---
 Font("ecrm","1000","10","100")
 Font("ectt","1000","10","100")

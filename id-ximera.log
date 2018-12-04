@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2018.10.12)  4 DEC 2018 02:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2018.10.12)  4 DEC 2018 03:07
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1270,49 +1270,8 @@ Package babel Info: Making > an active character on input line 707.
 (/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
 \c@lips@count=\count193
-)
-(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
-Package: tcolorbox 2018/01/12 version 4.12 text color boxes
-
-(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
-Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks58
-\verbatim@line=\toks59
-\verbatim@in@stream=\read3
-)
-(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count194
-)
-\tcb@titlebox=\box46
-\tcb@upperbox=\box47
-\tcb@lowerbox=\box48
-\tcb@phantombox=\box49
-\c@tcbbreakpart=\count195
-\c@tcblayer=\count196
-\tcolorbox@number=\count197
-\tcb@temp=\box50
-\tcb@temp=\box51
-\tcb@temp=\box52
-\tcb@temp=\box53
-\tcb@out=\write6
-\tcb@record@out=\write7
-
-(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
-Library (tcolorbox): 'tcbbreakable.code.tex' version '4.12'
-\tcb@testbox=\box54
-\tcb@totalupperbox=\box55
-\tcb@totallowerbox=\box56
-) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
-Library (tcolorbox): 'tcbskins.code.tex' version '4.12'
-(/usr/share/texlive/texmf-dist/tex/generic/tex4ht/usepackage.4ht)
-\tcb@waterbox=\box57
-
-(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
-Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '4.12'
-)) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbhooks.code.tex
-Library (tcolorbox): 'tcbhooks.code.tex' version '4.12'
-))) (/home/eva/texmf/tex/latex/local/ximeraLatex/ximera.cfg
+))
+(/home/eva/texmf/tex/latex/local/ximeraLatex/ximera.cfg
 (/usr/share/texlive/texmf-dist/tex/generic/tex4ht/tex4ht.4ht
 version 2017-05-09-09:21
 --------------------------------------
@@ -1326,14 +1285,14 @@ version 2017-05-09-09:21
 version 2018-02-11-15:01
 
 --- needs --- tex4ht id-ximera ---
-\tmp:cnt=\count198
+\tmp:cnt=\count194
 \openout15 = `id-ximera.tmp'.
 
 (./id-ximera.tmp)
 \tmp:dim=\skip61
  (./id-ximera.xref)
-\:refout=\write8
-\openout8 = `id-ximera.xref'.
+\:refout=\write6
+\openout6 = `id-ximera.xref'.
 
 
 (/usr/share/texlive/texmf-dist/tex/generic/tex4ht/html4.4ht
@@ -1410,8 +1369,8 @@ on `imgdir:.../'
 (/usr/share/texlive/texmf-dist/tex/generic/tex4ht/html4-math.4ht
 version 2017-03-30-16:04
 )
-\:tokwrite=\toks60
-\:tokpage=\toks61
+\:tokwrite=\toks58
+\:tokpage=\toks59
 --------------------------------------
 --- Note --- for back links to toc, use the command line option `sections+'
 --------------------------------------
@@ -1421,8 +1380,8 @@ version 2017-03-30-16:04
 --------------------------------------
 \openout15 = `id-ximera.4ct'.
 
-\:tocout=\write9
-\openout9 = `id-ximera.4tc'.
+\:tocout=\write7
+\openout7 = `id-ximera.4tc'.
 
 
 (/usr/share/texlive/texmf-dist/tex/generic/tex4ht/html4.4ht
@@ -1546,7 +1505,7 @@ version 2018-02-21-09:31
 version 2017-03-30-16:04
 ))
 (/home/eva/texmf/tex/latex/local/ximeraLatex/xourse.4ht
-\c@ximera@part=\count199
+\c@ximera@part=\count195
 
 /home/eva/texmf/tex/latex/local/ximeraLatex/xourse.4ht:65: Too many }'s.
 l.65 }
@@ -1563,12 +1522,12 @@ version 2017-03-30-16:04
 (/home/eva/texmf/tex/latex/local/ximeraLatex/ximera.4ht
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2018/01/14 v2.7a Micro-typographical refinements (RS)
-\MT@toks=\toks62
-\MT@count=\count266
+\MT@toks=\toks60
+\MT@count=\count196
 LaTeX Info: Redefining \textls on input line 793.
 \MT@outer@kern=\dimen196
 LaTeX Info: Redefining \textmicrotypecontext on input line 1339.
-\MT@listname@count=\count267
+\MT@listname@count=\count197
 
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2018/01/14 v2.7a Definitions specific to pdftex (RS)
@@ -1596,7 +1555,7 @@ l.51 \Configure
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-\c@identification=\count268
+\c@identification=\count198
 
 /home/eva/texmf/tex/latex/local/ximeraLatex/ximera.4ht:69: LaTeX Error: Environ
 ment xarmaBoost undefined in `ximera.cfg'.
@@ -1623,8 +1582,8 @@ l.71 \ConfigureQuestionEnv{shuffle}{shuffle}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-\c@imagealt=\count269
-\c@choiceId=\count270
+\c@imagealt=\count199
+\c@choiceId=\count266
 /home/eva/texmf/tex/latex/local/ximeraLatex/ximera.4ht:234: Illegal parameter n
 umber in definition of \desmos.
 <to be read again> 
@@ -1936,15 +1895,6 @@ version 2018-02-21-09:31
 (/usr/share/texlive/texmf-dist/tex/generic/tex4ht/html4-math.4ht
 version 2017-03-30-16:04
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/tex4ht/verbatim.4ht
-version 2009-05-21-09:32
-
-(/usr/share/texlive/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2018-02-21-09:31
-)
-(/usr/share/texlive/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2017-03-30-16:04
-))
 (/usr/share/texlive/texmf-dist/tex/generic/tex4ht/html4.4ht
 version 2018-02-21-09:31
 )
@@ -1955,11 +1905,12 @@ runsystem(sed -i "/@/d" id-ximera.jax)...executed.
 
 runsystem(sed -i "s/##\\([0-9]\\)/#\\1/g" id-ximera.jax)...executed.
 
-\eqtoks=\toks63
 
+l.53 --- TeX4ht warning --- \Configure{verbatiminput}? ---
+\eqtoks=\toks61
 (./id-ximera.oc) (./id-ximera.aux
-LaTeX Info: Redefining \. on input line 23.
-LaTeX Info: Redefining \% on input line 23.
+LaTeX Info: Redefining \. on input line 22.
+LaTeX Info: Redefining \% on input line 22.
 )
 \openout1 = `id-ximera.aux'.
 
@@ -1984,8 +1935,8 @@ ick labels; missing features). Consider writing \pgfplotsset{compat=1.15} into
 your preamble.
  on input line 158.
 
-\c@lstlisting=\count271
-\AtBeginShipoutBox=\box58
+\c@lstlisting=\count267
+\AtBeginShipoutBox=\box46
 Package hyperref Info: Link coloring ON on input line 158.
 LaTeX Info: Redefining \ref on input line 158.
 LaTeX Info: Redefining \pageref on input line 158.
@@ -2062,20 +2013,20 @@ Package atveryend Info: Empty hook `BeforeClearDocument' on input line 31.
  [4]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 31.
  (./id-ximera.aux
-LaTeX Info: Redefining \. on input line 23.
-LaTeX Info: Redefining \% on input line 23.
+LaTeX Info: Redefining \. on input line 22.
+LaTeX Info: Redefining \% on input line 22.
 )
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 31.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 31.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 31.
  ) 
 Here is how much of TeX's memory you used:
- 39825 strings out of 492983
- 877360 string characters out of 6134921
- 1344999 words of memory out of 5000000
- 42538 multiletter control sequences out of 15000+600000
+ 36497 strings out of 492983
+ 788564 string characters out of 6134921
+ 1219847 words of memory out of 5000000
+ 39240 multiletter control sequences out of 15000+600000
  4742 words of font info for 17 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,6n,100p,1436b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 75i,5n,100p,1223b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on id-ximera.dvi (4 pages, 14980 bytes).
+Output written on id-ximera.dvi (4 pages, 10188 bytes).
