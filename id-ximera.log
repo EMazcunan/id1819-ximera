@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2018.10.12)  4 DEC 2018 03:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2018.10.12)  4 DEC 2018 03:18
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1582,6 +1582,19 @@ l.71 \ConfigureQuestionEnv{shuffle}{shuffle}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+
+/home/eva/texmf/tex/latex/local/ximeraLatex/ximera.4ht:80: LaTeX Error: Environ
+ment teorema undefined in `ximera.cfg'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.80       \ConfigureTheoremEnv{teorema}
+                                        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 \c@imagealt=\count199
 \c@choiceId=\count266
 /home/eva/texmf/tex/latex/local/ximeraLatex/ximera.4ht:234: Illegal parameter n
@@ -2021,10 +2034,10 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 31.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 31.
  ) 
 Here is how much of TeX's memory you used:
- 36497 strings out of 492983
- 788564 string characters out of 6134921
- 1219847 words of memory out of 5000000
- 39240 multiletter control sequences out of 15000+600000
+ 36501 strings out of 492983
+ 788608 string characters out of 6134921
+ 1220055 words of memory out of 5000000
+ 39244 multiletter control sequences out of 15000+600000
  4742 words of font info for 17 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,5n,100p,1223b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
