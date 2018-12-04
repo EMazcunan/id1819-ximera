@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2018.10.12)  4 DEC 2018 19:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2018.10.12)  4 DEC 2018 19:27
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1614,19 +1614,6 @@ You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
 
 
-/home/eva/texmf/tex/latex/local/ximeraLatex/ximera.4ht:276: LaTeX Error: Missin
-g \begin{document} in `ximera.cfg'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.276 A
-       ñadido por mí
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
 /home/eva/texmf/tex/latex/local/ximeraLatex/ximera.4ht:287: LaTeX Error: Enviro
 nment teorema undefined in `ximera.cfg'.
 
@@ -2047,12 +2034,12 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 31.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 31.
  ) 
 Here is how much of TeX's memory you used:
- 36503 strings out of 492983
- 788638 string characters out of 6134921
- 1220870 words of memory out of 5000000
- 39246 multiletter control sequences out of 15000+600000
+ 36502 strings out of 492983
+ 788629 string characters out of 6134921
+ 1220816 words of memory out of 5000000
+ 39245 multiletter control sequences out of 15000+600000
  4742 words of font info for 17 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,5n,100p,1223b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on id-ximera.dvi (4 pages, 10264 bytes).
+Output written on id-ximera.dvi (4 pages, 10188 bytes).
