@@ -83,7 +83,9 @@
 \newcommand {\spanishucmonthxiiname }[0]{Diciembre}
 \newcommand {\spanishtoday }[0]{\spanishdate {\year }{\month }{\day }}
 \newcommand {\spanishToday }[0]{\spanishDate {\year }{\month }{\day }}
-\newcommand {\CurrentInputEncodingName }[0]{}
-\newcommand {\CurrentInputEncodingOption }[0]{}
+\newcommand {\T1\textperthousand }[0]{\%\char 24 }
+\newcommand {\T1\textpertenthousand }[0]{\%\char 24\char 24 }
 \newcommand {\lipsumexp }[0]{}
+\newcommand {\T1\textperthousand }[0]{\%\char 24 }
+\newcommand {\T1\textpertenthousand }[0]{\%\char 24\char 24 }
 \newcommand {\HyperFirstAtBeginDocument }[0]{\AtBeginDocument }
