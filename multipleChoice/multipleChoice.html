@@ -1,4 +1,7 @@
 <!DOCTYPE html><html lang="en"><head> <title>Multiple choice and the like (2.10.2, pag 23; 2.10.4, pag.
+                                                                  
+
+                                                                  
 24)</title> 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
 <meta name="generator" content="TeX4ht (http://www.tug.org/tex4ht/)"/> 
@@ -10,20 +13,167 @@
 <meta name="ximera" content="version 0.0.1"/> 
 <link href="https://ximera.osu.edu/public/stylesheets/standalone.css" rel="stylesheet" media="screen"/> 
 <script type="text/javascript" async="" src="https://ximera.osu.edu/public/javascripts/standalone.min.js"></script> 
-<meta name="dependency" content="5b922bd8a12e62e7890914ab23f698bc9bd2ad3c preamble.tex"/><meta name="dependency" content="2b2182d45210c2ceab61158d71e46adca11b3b43 multipleChoice/multipleChoice.tex"/></head><body> 
+<meta name="dependency" content="b9a1b4443725af3896709875bd40963d5f737bdf preamble.tex"/><meta name="dependency" content="2b2182d45210c2ceab61158d71e46adca11b3b43 multipleChoice/multipleChoice.tex"/></head><body> 
 <div class="preamble"><script type="math/tex">\newenvironment {prompt}{}{}
 \newcommand {\ungraded }[0]{}
 \newcommand {\T1\textperthousand }[0]{\%\char 24 }
 \newcommand {\T1\textpertenthousand }[0]{\%\char 24\char 24 }
+\newcommand {\IfBabelLayout }[3]{#3}
+\newcommand {\babelnullhyphen }[0]{\char \hyphenchar \font }
+\newcommand {\?\quotedblbase }[0]{\UseTextSymbol {OT1}{\quotedblbase }}
+\newcommand {\?\quotesinglbase }[0]{\UseTextSymbol {OT1}{\quotesinglbase }}
+\newcommand {\?\guillemotleft }[0]{\UseTextSymbol {OT1}{\guillemotleft }}
+\newcommand {\?\guillemotright }[0]{\UseTextSymbol {OT1}{\guillemotright }}
+\newcommand {\?\guilsinglleft }[0]{\UseTextSymbol {OT1}{\guilsinglleft }}
+\newcommand {\?\guilsinglright }[0]{\UseTextSymbol {OT1}{\guilsinglright }}
+\newcommand {\T1\ij }[0]{\char 188}
+\newcommand {\T1\IJ }[0]{\char 156}
+\newcommand {\?\dj }[0]{\UseTextSymbol {OT1}{\dj }}
+\newcommand {\?\DJ }[0]{\UseTextSymbol {OT1}{\DJ }}
+\newcommand {\OT1\SS }[0]{SS}
+\newcommand {\?\glq }[0]{\textormath {\quotesinglbase }{\mbox {\quotesinglbase }}}
+\newcommand {\T1\grq }[0]{\textormath {\textquoteleft }{\mbox {\textquoteleft }}}
+\newcommand {\TU\grq }[0]{\textormath {\textquoteleft }{\mbox {\textquoteleft }}}
+\newcommand {\?\grq }[0]{\UseTextSymbol {OT1}\grq }
+\newcommand {\?\glqq }[0]{\textormath {\quotedblbase }{\mbox {\quotedblbase }}}
+\newcommand {\T1\grqq }[0]{\textormath {\textquotedblleft }{\mbox {\textquotedblleft }}}
+\newcommand {\TU\grqq }[0]{\textormath {\textquotedblleft }{\mbox {\textquotedblleft }}}
+\newcommand {\?\grqq }[0]{\UseTextSymbol {OT1}\grqq }
+\newcommand {\?\flq }[0]{\textormath {\guilsinglleft }{\mbox {\guilsinglleft }}}
+\newcommand {\?\frq }[0]{\textormath {\guilsinglright }{\mbox {\guilsinglright }}}
+\newcommand {\?\flqq }[0]{\textormath {\guillemotleft }{\mbox {\guillemotleft }}}
+\newcommand {\?\frqq }[0]{\textormath {\guillemotright }{\mbox {\guillemotright }}}
+\newcommand {\BabelDateSpace }[0]{\nobreakspace }
+\newcommand {\BabelDated }[1]{{\number #1}}
+\newcommand {\BabelDatedd }[1]{{\ifnum #1&#x003C;10 0\fi \number #1}}
+\newcommand {\BabelDateM }[1]{{\number #1}}
+\newcommand {\BabelDateMM }[1]{{\ifnum #1&#x003C;10 0\fi \number #1}}
+\newcommand {\BabelDateMMMM }[1]{{\csname month\romannumeral #1name\endcsname }}
+\newcommand {\BabelDatey }[1]{{\number #1}}
+\newcommand {\BabelDateyyyy }[1]{{\number #1}}
+\newcommand {\FOREIGNLANGUAGE  }[1]{\lowercase {\foreignlanguage {#1}}}
+\newcommand {\BabelNonASCII }[0]{LGR,X2,OT2,OT3,OT6,LHE,LWN,LMA,LMC,LMS,LMU,}
+\newcommand {\latintext  }[0]{\fontencoding {\latinencoding }\selectfont \def \encodingdefault {\latinencoding }}
+\newcommand {\spanishprefacename }[0]{Prefacio}
+\newcommand {\spanishrefname }[0]{Referencias}
+\newcommand {\spanishabstractname }[0]{Resumen}
+\newcommand {\spanishbibname }[0]{Bibliograf\’{\i }a}
+\newcommand {\spanishchaptername }[0]{Cap\’{\i }tulo}
+\newcommand {\spanishappendixname }[0]{Ap\’{e}ndice}
+\newcommand {\spanishlistfigurename }[0]{\’{I}ndice de figuras}
+\newcommand {\spanishlisttablename }[0]{\’{I}ndice de cuadros}
+\newcommand {\spanishindexname }[0]{\’{I}ndice alfab\’{e}tico}
+\newcommand {\spanishfigurename }[0]{Figura}
+\newcommand {\spanishtablename }[0]{Cuadro}
+\newcommand {\spanishpartname }[0]{Parte}
+\newcommand {\spanishenclname }[0]{Adjunto}
+\newcommand {\spanishccname }[0]{Copia a}
+\newcommand {\spanishheadtoname }[0]{A}
+\newcommand {\spanishpagename }[0]{p\’{a}gina}
+\newcommand {\spanishseename }[0]{v\’{e}ase}
+\newcommand {\spanishalsoname }[0]{v\’{e}ase tambi\’{e}n}
+\newcommand {\spanishproofname }[0]{Demostraci\’{o}n}
+\newcommand {\spanishglossaryname }[0]{Glosario}
+\newcommand {\spanishcontentsname }[0]{\’{I}ndice}
+\newcommand {\spanishmonthiname }[0]{enero}
+\newcommand {\spanishmonthiiname }[0]{febrero}
+\newcommand {\spanishmonthiiiname }[0]{marzo}
+\newcommand {\spanishmonthivname }[0]{abril}
+\newcommand {\spanishmonthvname }[0]{mayo}
+\newcommand {\spanishmonthviname }[0]{junio}
+\newcommand {\spanishmonthviiname }[0]{julio}
+\newcommand {\spanishmonthviiiname }[0]{agosto}
+\newcommand {\spanishmonthixname }[0]{septiembre}
+\newcommand {\spanishmonthxname }[0]{octubre}
+\newcommand {\spanishmonthxiname }[0]{noviembre}
+\newcommand {\spanishmonthxiiname }[0]{diciembre}
+\newcommand {\spanishucmonthiname }[0]{Enero}
+\newcommand {\spanishucmonthiiname }[0]{Febrero}
+\newcommand {\spanishucmonthiiiname }[0]{Marzo}
+\newcommand {\spanishucmonthivname }[0]{Abril}
+\newcommand {\spanishucmonthvname }[0]{Mayo}
+\newcommand {\spanishucmonthviname }[0]{Junio}
+\newcommand {\spanishucmonthviiname }[0]{Julio}
+\newcommand {\spanishucmonthviiiname }[0]{Agosto}
+\newcommand {\spanishucmonthixname }[0]{Septiembre}
+\newcommand {\spanishucmonthxname }[0]{Octubre}
+\newcommand {\spanishucmonthxiname }[0]{Noviembre}
+\newcommand {\spanishucmonthxiiname }[0]{Diciembre}
+\newcommand {\spanishtoday }[0]{\spanishdate {\year }{\month }{\day }}
+\newcommand {\spanishToday }[0]{\spanishDate {\year }{\month }{\day }}
 \newcommand {\lipsumexp }[0]{}
-\newcommand {\HyperFirstAtBeginDocument }[0]{\AtBeginDocument }</script><script type="text/javascript"> 
+\newcommand {\newrobustcmd }[0]{}
+\newcommand {\csshow }[1]{\begingroup \expandafter \endgroup \expandafter \show \csname #1\endcsname }
+\newcommand {\csmeaning }[1]{\ifcsname #1\endcsname \expandafter \meaning \csname #1\endcsname \else \detokenize {undefined}\fi }
+\newcommand {\ifdefmacro }[0]{}
+\newcommand {\ifdefparam }[0]{}
+\newcommand {\ifdefprotected }[0]{}
+\newcommand {\ifnumequal }[1]{\ifnumcomp {#1}=}
+\newcommand {\ifnumgreater }[1]{\ifnumcomp {#1}&#x003E;}
+\newcommand {\ifnumless }[1]{\ifnumcomp {#1}&#x003C;}
+\newcommand {\ifdimequal }[1]{\ifdimcomp {#1}=}
+\newcommand {\ifdimgreater }[1]{\ifdimcomp {#1}&#x003E;}
+\newcommand {\ifdimless }[1]{\ifdimcomp {#1}&#x003C;}
+\newcommand {\expandonce }[1]{\unexpanded \expandafter {#1}}
+\newcommand {\csexpandonce }[1]{\expandafter \expandonce \csname #1\endcsname }
+\newcommand {\protecting }[0]{}
+\newcommand {\csdef }[1]{\expandafter \def \csname #1\endcsname }
+\newcommand {\csedef }[1]{\expandafter \edef \csname #1\endcsname }
+\newcommand {\csgdef }[1]{\expandafter \gdef \csname #1\endcsname }
+\newcommand {\csxdef }[1]{\expandafter \xdef \csname #1\endcsname }
+\newcommand {\cslet }[2]{\expandafter \let \csname #1\endcsname #2}
+\newcommand {\letcs }[2]{\ifcsdef {#2} {\expandafter \let \expandafter #1\csname #2\endcsname } {\undef #1}}
+\newcommand {\csletcs }[2]{\ifcsdef {#2} {\expandafter \let \csname #1\expandafter \endcsname \csname #2\endcsname } {\csundef {#1}}}
+\newcommand {\csuse }[1]{\ifcsname #1\endcsname \csname #1\expandafter \endcsname \fi }
+\newcommand {\appto }[2]{\ifundef {#1} {\edef #1{\unexpanded {#2}}} {\edef #1{\expandonce #1\unexpanded {#2}}}}
+\newcommand {\eappto }[2]{\ifundef {#1} {\edef #1{#2}} {\edef #1{\expandonce #1#2}}}
+\newcommand {\gappto }[2]{\ifundef {#1} {\xdef #1{\unexpanded {#2}}} {\xdef #1{\expandonce #1\unexpanded {#2}}}}
+\newcommand {\xappto }[2]{\ifundef {#1} {\xdef #1{#2}} {\xdef #1{\expandonce #1#2}}}
+\newcommand {\preto }[2]{\ifundef {#1} {\edef #1{\unexpanded {#2}}} {\edef #1{\unexpanded {#2}\expandonce #1}}}
+\newcommand {\epreto }[2]{\ifundef {#1} {\edef #1{#2}} {\edef #1{#2\expandonce #1}}}
+\newcommand {\gpreto }[2]{\ifundef {#1} {\xdef #1{\unexpanded {#2}}} {\xdef #1{\unexpanded {#2}\expandonce #1}}}
+\newcommand {\xpreto }[2]{\ifundef {#1} {\xdef #1{#2}} {\xdef #1{#2\expandonce #1}}}
+\newcommand {\csappto }[1]{\expandafter \appto \csname #1\endcsname }
+\newcommand {\cseappto }[1]{\expandafter \eappto \csname #1\endcsname }
+\newcommand {\csgappto }[1]{\expandafter \gappto \csname #1\endcsname }
+\newcommand {\csxappto }[1]{\expandafter \xappto \csname #1\endcsname }
+\newcommand {\cspreto }[1]{\expandafter \preto \csname #1\endcsname }
+\newcommand {\csepreto }[1]{\expandafter \epreto \csname #1\endcsname }
+\newcommand {\csgpreto }[1]{\expandafter \gpreto \csname #1\endcsname }
+\newcommand {\csxpreto }[1]{\expandafter \xpreto \csname #1\endcsname }
+\newcommand {\csnumdef }[1]{\expandafter \numdef \csname #1\endcsname }
+\newcommand {\csnumgdef }[1]{\expandafter \numgdef \csname #1\endcsname }
+\newcommand {\csdimdef }[1]{\expandafter \dimdef \csname #1\endcsname }
+\newcommand {\csdimgdef }[1]{\expandafter \dimgdef \csname #1\endcsname }
+\newcommand {\csgluedef }[1]{\expandafter \gluedef \csname #1\endcsname }
+\newcommand {\csgluegdef }[1]{\expandafter \gluegdef \csname #1\endcsname }
+\newcommand {\mudef }[2]{\ifundef #1{\def #1{0mu}}{}\edef #1{\the \muexpr #2}}
+\newcommand {\csmudef }[1]{\expandafter \mudef \csname #1\endcsname }
+\newcommand {\csmugdef }[1]{\expandafter \mugdef \csname #1\endcsname }
+\newcommand {\listbreak }[0]{}
+\newcommand {\listadd }[2]{\ifblank {#2}{}{\appto #1{#2|}}}
+\newcommand {\listgadd }[2]{\ifblank {#2}{}{\gappto #1{#2|}}}
+\newcommand {\listcsadd }[1]{\expandafter \listadd \csname #1\endcsname }
+\newcommand {\listcseadd }[1]{\expandafter \listeadd \csname #1\endcsname }
+\newcommand {\listcsgadd }[1]{\expandafter \listgadd \csname #1\endcsname }
+\newcommand {\listcsxadd }[1]{\expandafter \listxadd \csname #1\endcsname }
+\newcommand {\listcsremove }[1]{\expandafter \listremove \csname #1\endcsname }
+\newcommand {\listcsgremove }[1]{\expandafter \listgremove \csname #1\endcsname }
+\newcommand {\dolistloop }[0]{\forlistloop \do }
+\newcommand {\dolistcsloop }[0]{\forlistcsloop \do }
+\newcommand {\AfterPreamble }[0]{\AtBeginDocument }
+\newcommand {\tcolorboxenvironment }[2]{\BeforeBeginEnvironment {#1}{\begin {tcolorbox}[savedelimiter={#1},#2]}\AfterEndEnvironment {#1}{\end {tcolorbox}}}
+\newcommand {\tcbpkgprefix }[0]{}
+\newcommand {\HyperFirstAtBeginDocument }[0]{\AtBeginDocument }                                                                                            </script><script type="text/javascript"> 
 </script> 
 </div>
+
+                                                                  
 <div class="abstract">
 <!--l. 10--><p class="noindent">Ejemplo de preguntas de elección múltiple
 </p></div>
 <div class="maketitle"></div>
-<div role="article" class="problem-environment exercise" id="problem1"><a id="x1-8r1"></a> Choose the best place to work on mathematics: <div class="multiple-choice" id="problem2"><span class="choice  " id="choice1">At the library</span> <span class="choice correct " id="choice2">At the cafe</span> <span class="choice  " id="choice3">In
+<div role="article" class="problem-environment exercise" id="problem1"><a id="x1-153r1"></a> Choose the best place to work on mathematics: <div class="multiple-choice" id="problem2"><span class="choice  " id="choice1">At the library</span> <span class="choice correct " id="choice2">At the cafe</span> <span class="choice  " id="choice3">In
 your office</span> </div>
 </div>
  

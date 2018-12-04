@@ -4,35 +4,17 @@
 
 \title[Examples:]{Problem environments (2.4.5, pag. 6)}
 
-\newenvironment{problemEnv}[2][5in]{%
-\problemEnvironmentStart{#1}{#2}%
+\renewenvironment{problem}[1][2in]{%
+\problemEnvironmentStart{#1}{Problema}%
 }{%
 \problemEnvironmentEnd%
 }
 
-\newenvironment{xProblem}[1][5in]{%
-	\begin{problemEnv}[#1]{Problema}%
-}{
-	\end{problemEnv}
-}
-
-
-
-\newenvironment{xExercise}[1][5in]{
-	\begin{problemEnv}[#1]{Ejercicio}
-}{
-	\end{problemEnv}
-}
 
 %\ConfigureQuestionEnv{xProblem}{xProblem}
 
 \begin{document}
 
-\renewenvironment{problem}[1][5in]{%
-	\begin{problemEnv}[#1]{Problema}%
-}{
-	\end{problemEnv}
-}
 
 \begin{abstract}
   Some problem environments.
@@ -46,20 +28,6 @@ However in the PDF, the documentclass option \verb|newpage| will start
 a new page at the end of each of these. Moreoever, nested problem
 envionments will number as sub problems in the PDF.
 
-
-
-%
-\begin{xProblem}
-	\lipsum[1]
-\end{xProblem}
-
-\begin{xProblem}[0in]
-content
-\end{xProblem}
-
-\begin{xExercise}
-content
-\end{xExercise}
 
 
 \begin{exercise}
