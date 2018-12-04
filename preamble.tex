@@ -1,10 +1,65 @@
-%\usepackage[spanish]{babel}
+
 %
 \usepackage[utf8]{inputenc}
 %
-\RequirePackage[T1]{fontenc}
+\usepackage[T1]{fontenc}
+
+\usepackage[spanish]{babel}
 
 \usepackage{lipsum}
 
 
+\usepackage[breakable, skins, hooks]{tcolorbox} 
+%
+%% skin para tcolorbox de teoremas
+%\tcbsubskin{ln@thm@tcbskin}{enhanced}{%
+%	frame style = {draw = none, fill = none},
+%	interior style = {draw = none, fill = none},		
+%	title style = {draw = none, fill = none},
+%}
+%
+%%% skin para tcolorbox de exercise
+%\tcbsubskin{ln@ex@tcbskin}{enhanced}{%
+%	frame style = {draw = grisuleii, fill = grisulei},
+%	interior style = {draw = grisulei,fill = none},		
+%	title style = {draw = none, fill = none},
+%}
+%
+%
+%\newenvironment{gbox}[1][]{%
+%	\begin{tcolorbox}[%
+%		skin = ln@thm@tcbskin,
+%		ln@thm@tcbstyle,
+%		#1,
+%	]%
+%	\ignorespaces% 
+%}{%
+%	\end{tcolorbox}%
+%	\ignorespacesafterend%
+%}	
+%
+%\newenvironment{ex}[1][]{%%
+%%	\leavevmode
+%	\refstepcounter{exno}%
+%	\begin{gbox}[%
+%		ln@ex@tcbornaments,
+%%		stoprule,
+%%		sbottomrule,
+%		before upper = {%	
+%			\raisebox{2\baselineskip}[0pt][0pt]{%
+%				\hypertarget{ex.\ex@label{exno}}{\makebox[0pt]{}}%
+%			}%
+%			\ignorespaces%
+%		},
+%		title = {%
+%			{\ex@headerfont \ex@header[\cmdKV@exopt@note]{exno}}%
+%		},%
+%%		nobeforeafter,
+%	]%
+%	\ignorespaces% 
+%}{%
+%	\end{gbox}%
+%	\ignorespacesafterend%
+%}
+%
 
