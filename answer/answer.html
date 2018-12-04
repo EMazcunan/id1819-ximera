@@ -13,7 +13,7 @@ Austin"/>
 <meta name="ximera" content="version 0.0.1"/> 
 <link href="https://ximera.osu.edu/public/stylesheets/standalone.css" rel="stylesheet" media="screen"/> 
 <script type="text/javascript" async="" src="https://ximera.osu.edu/public/javascripts/standalone.min.js"></script> 
-<meta name="dependency" content="b24665a9816e3dd465a24e9ffbf6a8d366cdb907 preamble.tex"/><meta name="dependency" content="b24665a9816e3dd465a24e9ffbf6a8d366cdb907 preamble.tex"/><meta name="dependency" content="32e2f0d141105ce6fb66ca57b6b2c9abcaa6f3e2 answer/answer.tex"/></head><body> 
+<meta name="dependency" content="9a9c4d6f35b2261d419f53bde5d55e9b0d2e6a5f preamble.tex"/><meta name="dependency" content="9a9c4d6f35b2261d419f53bde5d55e9b0d2e6a5f preamble.tex"/><meta name="dependency" content="32e2f0d141105ce6fb66ca57b6b2c9abcaa6f3e2 answer/answer.tex"/></head><body> 
 <div class="preamble"><script type="math/tex">\newenvironment {prompt}{}{}
 \newcommand {\ungraded }[0]{}
 \newcommand {\IfBabelLayout }[3]{#3}
@@ -99,7 +99,11 @@ Austin"/>
 \newcommand {\spanishucmonthxiiname }[0]{Diciembre}
 \newcommand {\spanishtoday }[0]{\spanishdate {\year }{\month }{\day }}
 \newcommand {\spanishToday }[0]{\spanishDate {\year }{\month }{\day }}
+\newcommand {\T1\textperthousand }[0]{\%\char 24 }
+\newcommand {\T1\textpertenthousand }[0]{\%\char 24\char 24 }
 \newcommand {\lipsumexp }[0]{}
+\newcommand {\T1\textperthousand }[0]{\%\char 24 }
+\newcommand {\T1\textpertenthousand }[0]{\%\char 24\char 24 }
 \newcommand {\HyperFirstAtBeginDocument }[0]{\AtBeginDocument }                                                  </script><script type="text/javascript"> 
 </script> 
 </div>
@@ -108,16 +112,17 @@ Austin"/>
 <div class="abstract">
 <!--l. 16--><p class="noindent">An example of various uses of <code>answer</code>
 </p></div>   <div class="maketitle"></div>
-xá´ax xá´ax x´3x xí´ıx xó´ox xú´ux
+xáx xáx x<img src="answer0x.png" alt="´
+3  " class="acute"/>x xíx xóx xúx
 <!--l. 22--><p class="noindent">A math answer
 </p><!--l. 24--><p class="noindent">Type <script type="math/tex">2</script>: <script type="math/tex">\answer {2}</script>
-</p><!--l. 26--><p class="noindent">Opció´on given (defecto false): Determines if answer is shown in handout mode. When
+</p><!--l. 26--><p class="noindent">Opción given (defecto false): Determines if answer is shown in handout mode. When
 given=true, show answer in handout mode, show answer in “given box” outside
 handout mode.
 </p><!--l. 29--><p class="noindent">Type 2: <script type="math/tex">\answer [given]{2}</script>
 </p><!--l. 31--><p class="noindent">When given=false, do not show answer in handout mode, show answer outside
 handout mode <script type="math/tex">\answer [given=false]{2}</script>
-</p><!--l. 34--><p class="noindent">Opció´on tolerance: Used for setting numeric answer tolerance for online student
+</p><!--l. 34--><p class="noindent">Opción tolerance: Used for setting numeric answer tolerance for online student
 input.
 </p><!--l. 36--><p class="noindent">Type <script type="math/tex">0.5\pm 0.2</script>: <script type="math/tex">\answer [tolerance=.2]{\frac {1}{2}}</script>
  

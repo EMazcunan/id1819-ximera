@@ -1,4 +1,19 @@
-htfcss: cmtt font-family: monospace;
+htfcss: ecbx  font-weight: bold;
+htfcss: ecsx  font-weight: bold;
+htfcss: ecbi  font-weight: bold;   font-style: italic;
+htfcss: ecit  font-style: italic; font-family: monospace;
+htfcss: ecss  font-family: sans-serif;
+htfcss: ecff  font-family: fantasy;
+htfcss: ecti  font-style: italic;
+htfcss: ectt  font-family: monospace;
+htfcss: ecbx  font-weight: bold;
+htfcss: ecsx  font-weight: bold;
+htfcss: ecbi  font-weight: bold;   font-style: italic;
+htfcss: ecit  font-style: italic; font-family: monospace;
+htfcss: ecss  font-family: sans-serif;
+htfcss: ecff  font-family: fantasy;
+htfcss: ecti  font-style: italic;
+htfcss: ectt  font-family: monospace;
 File: answer.html
 File: answer.tmp
 Font_Css("4"): .small-caps{font-variant: small-caps; }
@@ -7,6 +22,7 @@ Font_Css("12"): .htf-calligraphy {font-family:cursive}
 Font_Css("14"): .htf-italic {font-style: italic;}
 Font_Css("16"): .htf-bold {font-weight: bold;}
 Font_Css("12"): .htf-calligraphy-bold {font-family:cursive ; font-weight: bold; }
+--- needs --- answer.idv[2] ==> answer0x.png ---
 --- characters ---
-Font("cmr","10","10","100")
-Font("cmtt","10","10","100")
+Font("ecrm","1000","10","100")
+Font("ectt","1000","10","100")
