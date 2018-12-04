@@ -16,6 +16,8 @@
 	\end{problemEnv}
 }
 
+
+
 \newenvironment{xExercise}[1][5in]{
 	\begin{problemEnv}[#1]{Ejercicio}
 }{
@@ -25,6 +27,13 @@
 %\ConfigureQuestionEnv{xProblem}{xProblem}
 
 \begin{document}
+
+\renewenvironment{problem}[1][5in]{%
+	\begin{problemEnv}[#1]{Problema}%
+}{
+	\end{problemEnv}
+}
+
 \begin{abstract}
   Some problem environments.
 \end{abstract}
