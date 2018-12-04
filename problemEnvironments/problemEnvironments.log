@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2018.10.12)  4 DEC 2018 03:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2018.10.12)  4 DEC 2018 16:52
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1565,46 +1565,33 @@ l.71 \ConfigureQuestionEnv{shuffle}{shuffle}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-
-/home/eva/texmf/tex/latex/local/ximeraLatex/ximera.4ht:80: LaTeX Error: Environ
-ment teorema undefined in `ximera.cfg'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.80       \ConfigureTheoremEnv{teorema}
-                                        
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 \c@imagealt=\count198
 \c@choiceId=\count199
-/home/eva/texmf/tex/latex/local/ximeraLatex/ximera.4ht:234: Illegal parameter n
+/home/eva/texmf/tex/latex/local/ximeraLatex/ximera.4ht:233: Illegal parameter n
 umber in definition of \desmos.
 <to be read again> 
                    c
-l.234 ...not support embedded elements.</iframe>}}
+l.233 ...not support embedded elements.</iframe>}}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
 
-/home/eva/texmf/tex/latex/local/ximeraLatex/ximera.4ht:266: LaTeX Error: Enviro
+/home/eva/texmf/tex/latex/local/ximeraLatex/ximera.4ht:265: LaTeX Error: Enviro
 nment sagesilent undefined in `ximera.cfg'.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.266 \renewenvironment{sagesilent}
+l.265 \renewenvironment{sagesilent}
                                    {\NoFonts}{\EndNoFonts}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-/home/eva/texmf/tex/latex/local/ximeraLatex/ximera.4ht:272: Too many }'s.
-l.272 }
+/home/eva/texmf/tex/latex/local/ximeraLatex/ximera.4ht:271: Too many }'s.
+l.271 }
        
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
@@ -2021,10 +2008,10 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 89.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 89.
  ) 
 Here is how much of TeX's memory you used:
- 36575 strings out of 492983
- 790118 string characters out of 6134921
- 1220254 words of memory out of 5000000
- 39303 multiletter control sequences out of 15000+600000
+ 36571 strings out of 492983
+ 790074 string characters out of 6134921
+ 1220047 words of memory out of 5000000
+ 39299 multiletter control sequences out of 15000+600000
  6441 words of font info for 25 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,6n,98p,1232b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
