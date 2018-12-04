@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2018.10.12)  4 DEC 2018 19:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2018.10.12)  4 DEC 2018 22:41
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1269,7 +1269,12 @@ Package babel Info: Making > an active character on input line 707.
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
 \c@lips@count=\count193
 ))
-\c@teorema=\count194
+(/home/eva/texmf/tex/latex/local/lnthm/lnthm.sty
+Package: lnthm 
+\c@thm=\count194
+\c@prp=\count195
+)
+\c@crl=\count196
 
 (/home/eva/texmf/tex/latex/local/ximeraLatex/ximera.cfg
 (/usr/share/texlive/texmf-dist/tex/generic/tex4ht/tex4ht.4ht
@@ -1285,7 +1290,7 @@ version 2017-05-09-09:21
 version 2018-02-11-15:01
 
 --- needs --- tex4ht theoremEnvironments ---
-\tmp:cnt=\count195
+\tmp:cnt=\count197
 \openout15 = `theoremEnvironments.tmp'.
 
 (./theoremEnvironments.tmp)
@@ -1508,11 +1513,11 @@ version 2017-03-30-16:04
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2018/01/14 v2.7a Micro-typographical refinements (RS)
 \MT@toks=\toks60
-\MT@count=\count196
+\MT@count=\count198
 LaTeX Info: Redefining \textls on input line 793.
 \MT@outer@kern=\dimen196
 LaTeX Info: Redefining \textmicrotypecontext on input line 1339.
-\MT@listname@count=\count197
+\MT@listname@count=\count199
 
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2018/01/14 v2.7a Definitions specific to pdftex (RS)
@@ -1540,7 +1545,7 @@ l.51 \Configure
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-\c@identification=\count198
+\c@identification=\count266
 
 /home/eva/texmf/tex/latex/local/ximeraLatex/ximera.4ht:69: LaTeX Error: Environ
 ment xarmaBoost undefined in `ximera.cfg'.
@@ -1567,8 +1572,8 @@ l.71 \ConfigureQuestionEnv{shuffle}{shuffle}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-\c@imagealt=\count199
-\c@choiceId=\count266
+\c@imagealt=\count267
+\c@choiceId=\count268
 /home/eva/texmf/tex/latex/local/ximeraLatex/ximera.4ht:234: Illegal parameter n
 umber in definition of \desmos.
 <to be read again> 
@@ -1880,6 +1885,7 @@ version 2018-02-21-09:31
 (/usr/share/texlive/texmf-dist/tex/generic/tex4ht/html4-math.4ht
 version 2017-03-30-16:04
 ))
+(/home/eva/texmf/tex/latex/local/lnthm/lnthm.4ht)
 (/usr/share/texlive/texmf-dist/tex/generic/tex4ht/html4.4ht
 version 2018-02-21-09:31
 )
@@ -1920,7 +1926,7 @@ ick labels; missing features). Consider writing \pgfplotsset{compat=1.15} into
 your preamble.
  on input line 158.
 
-\c@lstlisting=\count267
+\c@lstlisting=\count269
 \AtBeginShipoutBox=\box46
 Package hyperref Info: Link coloring ON on input line 158.
 LaTeX Info: Redefining \ref on input line 158.
@@ -1954,51 +1960,66 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 ] [2]
 
-./theoremEnvironments.tex:22: LaTeX Error: Environment abstract undefined.
+./theoremEnvironments.tex:25: LaTeX Error: Environment abstract undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.22 \begin{abstract}
+l.25 \begin{abstract}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./theoremEnvironments.tex:24: LaTeX Error: \begin{document} ended by \end{abstr
+./theoremEnvironments.tex:27: LaTeX Error: \begin{document} ended by \end{abstr
 act}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.24 \end{abstract}
+l.27 \end{abstract}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[3] [4] [5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 152.
- [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 152.
+LaTeX Font Info:    Try loading font information for U+msa on input line 35.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 35.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+) [3] [4] [5]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 165.
+
+[6]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 165.
  (./theoremEnvironments.aux
 LaTeX Info: Redefining \. on input line 22.
 LaTeX Info: Redefining \% on input line 22.
 )
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 152.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 152.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 152.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 165.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 165.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 165.
  ) 
 Here is how much of TeX's memory you used:
- 36557 strings out of 492983
- 789345 string characters out of 6134921
- 1220130 words of memory out of 5000000
- 39308 multiletter control sequences out of 15000+600000
- 4742 words of font info for 17 fonts, out of 8000000 for 9000
+ 36599 strings out of 492983
+ 790366 string characters out of 6134921
+ 1220216 words of memory out of 5000000
+ 39321 multiletter control sequences out of 15000+600000
+ 6441 words of font info for 25 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,5n,98p,1232b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on theoremEnvironments.dvi (6 pages, 18444 bytes).
+Output written on theoremEnvironments.dvi (6 pages, 22896 bytes).

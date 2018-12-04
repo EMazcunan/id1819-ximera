@@ -5,9 +5,12 @@
 %%\ConfigureTheoremEnv{mytheorem}
 
 
+
 \documentclass{ximera}
 
 \input{../preamble.tex}
+
+\usepackage{lnthm}
 
 %\outcome{Theorem environments.}
 
@@ -15,7 +18,7 @@
 
 \title[Examples:]{Theorem and theorem-like environments (2.4.2, pag. 4)}
 
-\newtheorem{teorema}{Teorema}
+%\newtheorem{teorema}{Teorema}
 
 \begin{document}
 
@@ -25,37 +28,47 @@
 \maketitle
 
 
-%\begin{mytheorem}
-%content
-%\end{mytheorem}
+\lipsum[1]
 
-
-\begin{teorema}
+\begin{thm}
 teorema \lipsum[1]
-\end{teorema}
+Type 2+1: $\answer{3}$
+\end{thm}
 
-\begin{teorema}[título]
+\vspace*{1ex}
+
+\lipsum[1]
+
+\begin{thm}[título]
 teorema \lipsum[1]
-\end{teorema}
+\end{thm}
+
+\lipsum[1]
+
+\begin{prp}[título]
+teorema \lipsum[1]
+\end{prp}
+
+\lipsum[1]
 
 \begin{theorem}
   This is something.\lipsum[1]
 \end{theorem}
 
+\lipsum[1]
 
+\begin{theorem}[My theorem]
+  This is something too.
+\end{theorem}
 
-%\begin{theorem}[My theorem]
-%  This is something too.
-%\end{theorem}
-%
-%\begin{algorithm}
-%  This is something.
-%\end{algorithm}
-%
-%\begin{axiom}
-%  This is something.
-%\end{axiom}
-%
+\begin{algorithm}
+  This is something.
+\end{algorithm}
+
+\begin{axiom}
+  This is something.
+\end{axiom}
+
 %\begin{claim}
 %  This is something.
 %\end{claim}
