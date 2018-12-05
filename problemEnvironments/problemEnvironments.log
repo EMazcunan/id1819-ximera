@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2018.10.12)  4 DEC 2018 16:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2018.10.12)  4 DEC 2018 22:43
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1567,31 +1567,31 @@ If that doesn't work, type  X <return>  to quit.
 
 \c@imagealt=\count198
 \c@choiceId=\count199
-/home/eva/texmf/tex/latex/local/ximeraLatex/ximera.4ht:233: Illegal parameter n
+/home/eva/texmf/tex/latex/local/ximeraLatex/ximera.4ht:234: Illegal parameter n
 umber in definition of \desmos.
 <to be read again> 
                    c
-l.233 ...not support embedded elements.</iframe>}}
+l.234 ...not support embedded elements.</iframe>}}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
 
-/home/eva/texmf/tex/latex/local/ximeraLatex/ximera.4ht:265: LaTeX Error: Enviro
+/home/eva/texmf/tex/latex/local/ximeraLatex/ximera.4ht:266: LaTeX Error: Enviro
 nment sagesilent undefined in `ximera.cfg'.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.265 \renewenvironment{sagesilent}
+l.266 \renewenvironment{sagesilent}
                                    {\NoFonts}{\EndNoFonts}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-/home/eva/texmf/tex/latex/local/ximeraLatex/ximera.4ht:271: Too many }'s.
-l.271 }
+/home/eva/texmf/tex/latex/local/ximeraLatex/ximera.4ht:272: Too many }'s.
+l.272 }
        
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
@@ -1954,40 +1954,40 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 ] [2]
 
-./problemEnvironments.tex:19: LaTeX Error: Environment abstract undefined.
+./problemEnvironments.tex:21: LaTeX Error: Environment abstract undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.19 \begin{abstract}
+l.21 \begin{abstract}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./problemEnvironments.tex:21: LaTeX Error: \begin{document} ended by \end{abstr
+./problemEnvironments.tex:23: LaTeX Error: \begin{document} ended by \end{abstr
 act}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.21 \end{abstract}
+l.23 \end{abstract}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 34.
+LaTeX Font Info:    Try loading font information for U+msa on input line 36.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 34.
+LaTeX Font Info:    Try loading font information for U+msb on input line 36.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1995,17 +1995,17 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ) [3] [4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 89.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 91.
  [5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 89.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 91.
 
 (./problemEnvironments.aux
 LaTeX Info: Redefining \. on input line 22.
 LaTeX Info: Redefining \% on input line 22.
 )
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 89.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 89.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 89.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 91.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 91.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 91.
  ) 
 Here is how much of TeX's memory you used:
  36571 strings out of 492983
