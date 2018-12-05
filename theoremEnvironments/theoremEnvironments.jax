@@ -148,4 +148,5 @@
 \newcommand {\AfterPreamble }[0]{\AtBeginDocument }
 \newcommand {\tcolorboxenvironment }[2]{\BeforeBeginEnvironment {#1}{\begin {tcolorbox}[savedelimiter={#1},#2]}\AfterEndEnvironment {#1}{\end {tcolorbox}}}
 \newcommand {\tcbpkgprefix }[0]{}
+\newcommand {\delimitertop }[0]{interior.north west}
 \newcommand {\HyperFirstAtBeginDocument }[0]{\AtBeginDocument }

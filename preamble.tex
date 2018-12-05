@@ -4,9 +4,22 @@
 %
 \usepackage[T1]{fontenc}
 
-\usepackage[spanish]{babel}
+\RequirePackage[spanish]{babel}
 
 \usepackage{lipsum}
 
+\usepackage{lnthm}
+
+%% --------------------------------------------------------------------------------
+%% Necesario para usar el paquete tcolorbox:
+%% Ver:
+%% sección TikZ export (2.6.2) en el manual de ximera
+%% y
+%% https://tex.stackexchange.com/a/320327
+%% --------------------------------------------------------------------------------
+\usetikzlibrary{external}
+\tikzexternalize
+\tcbset{shield externalize}
+%\pgfplotsset{compat=1.15}
 
 
