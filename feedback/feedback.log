@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2018.10.12)  5 DEC 2018 23:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2018.10.12)  5 DEC 2018 23:36
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1234,9 +1234,30 @@ Package babel Info: Making . an active character on input line 662.
 Package babel Info: Making < an active character on input line 707.
 Package babel Info: Making > an active character on input line 707.
 ))
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2018/01/14 v2.7a Micro-typographical refinements (RS)
+\MT@toks=\toks58
+\MT@count=\count193
+LaTeX Info: Redefining \textls on input line 793.
+\MT@outer@kern=\dimen196
+LaTeX Info: Redefining \textmicrotypecontext on input line 1339.
+\MT@listname@count=\count194
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+File: microtype-pdftex.def 2018/01/14 v2.7a Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 913.
+LaTeX Info: Redefining \lslig on input line 913.
+\MT@outer@space=\skip61
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2018/01/14 v2.7a microtype main configuration file (RS)
+))
 (/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
-\c@lips@count=\count193
+\c@lips@count=\count195
 )
 (/home/eva/texmf/tex/latex/local/lnthm/lnthm.sty
 Package: lnthm Theorems in lesson notes
@@ -1249,21 +1270,21 @@ Package: tcolorbox 2018/01/12 version 4.12 text color boxes
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks58
-\verbatim@line=\toks59
+\every@verbatim=\toks59
+\verbatim@line=\toks60
 \verbatim@in@stream=\read3
 )
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count194
+\etb@tempcnta=\count196
 )
 \tcb@titlebox=\box46
 \tcb@upperbox=\box47
 \tcb@lowerbox=\box48
 \tcb@phantombox=\box49
-\c@tcbbreakpart=\count195
-\c@tcblayer=\count196
-\tcolorbox@number=\count197
+\c@tcbbreakpart=\count197
+\c@tcblayer=\count198
+\tcolorbox@number=\count199
 \tcb@temp=\box50
 \tcb@temp=\box51
 \tcb@temp=\box52
@@ -1295,27 +1316,27 @@ Library (tcolorbox): 'tcbprocessing.code.tex' version '4.12'
 Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
 Package shellesc Info: Unrestricted shell escape enabled on input line 67.
 ))
-\c@tcblisting=\count198
+\c@tcblisting=\count266
 )))
-\ln@box@indent=\skip61
-\ln@box@delimiter@width=\skip62
+\ln@box@indent=\skip62
+\ln@box@delimiter@width=\skip63
 )
 (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
 (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
 \@xs@message=\write8
-\integerpart=\count199
-\decimalpart=\count266
+\integerpart=\count267
+\decimalpart=\count268
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
-\c@thmno=\count267
-\c@dfnno=\count268
-\c@exmpno=\count269
-\c@prpno=\count270
-\c@lmmno=\count271
-\c@crlno=\count272
-\c@algno=\count273
-\c@rmkno=\count274
+\c@thmno=\count269
+\c@dfnno=\count270
+\c@exmpno=\count271
+\c@prpno=\count272
+\c@lmmno=\count273
+\c@crlno=\count274
+\c@algno=\count275
+\c@rmkno=\count276
 ))
 (/home/eva/texmf/tex/latex/local/ximeraLatex/ximera.cfg
 (/usr/share/texlive/texmf-dist/tex/generic/tex4ht/tex4ht.4ht
@@ -1331,11 +1352,11 @@ version 2017-05-09-09:21
 version 2018-02-11-15:01
 
 --- needs --- tex4ht feedback ---
-\tmp:cnt=\count275
+\tmp:cnt=\count277
 \openout15 = `feedback.tmp'.
 
 (./feedback.tmp)
-\tmp:dim=\skip63
+\tmp:dim=\skip64
  (./feedback.xref)
 \:refout=\write9
 \openout9 = `feedback.xref'.
@@ -1415,8 +1436,8 @@ on `imgdir:.../'
 (/usr/share/texlive/texmf-dist/tex/generic/tex4ht/html4-math.4ht
 version 2017-03-30-16:04
 )
-\:tokwrite=\toks60
-\:tokpage=\toks61
+\:tokwrite=\toks61
+\:tokpage=\toks62
 --------------------------------------
 --- Note --- for back links to toc, use the command line option `sections+'
 --------------------------------------
@@ -1551,27 +1572,6 @@ version 2018-02-21-09:31
 version 2017-03-30-16:04
 ))
 (/home/eva/texmf/tex/latex/local/ximeraLatex/ximera.4ht
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
-Package: microtype 2018/01/14 v2.7a Micro-typographical refinements (RS)
-\MT@toks=\toks62
-\MT@count=\count276
-LaTeX Info: Redefining \textls on input line 793.
-\MT@outer@kern=\dimen196
-LaTeX Info: Redefining \textmicrotypecontext on input line 1339.
-\MT@listname@count=\count277
-
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def
-File: microtype-pdftex.def 2018/01/14 v2.7a Definitions specific to pdftex (RS)
-
-LaTeX Info: Redefining \lsstyle on input line 913.
-LaTeX Info: Redefining \lslig on input line 913.
-\MT@outer@space=\skip64
-)
-Package microtype Info: Loading configuration file microtype.cfg.
-
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
-File: microtype.cfg 2018/01/14 v2.7a microtype main configuration file (RS)
-))
 
 /home/eva/texmf/tex/latex/local/ximeraLatex/ximera.4ht:51: LaTeX Error: Environ
 ment html undefined in `ximera.cfg'.
@@ -1926,6 +1926,15 @@ version 2018-02-21-09:31
 (/usr/share/texlive/texmf-dist/tex/generic/tex4ht/html4-math.4ht
 version 2017-03-30-16:04
 ))
+(/usr/share/texlive/texmf-dist/tex/generic/tex4ht/microtype.4ht
+version 2009-05-21-09:32
+
+(/usr/share/texlive/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2018-02-21-09:31
+)
+(/usr/share/texlive/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2017-03-30-16:04
+))
 (/home/eva/texmf/tex/latex/local/lnthm/lnthm.4ht)
 (/usr/share/texlive/texmf-dist/tex/generic/tex4ht/verbatim.4ht
 version 2009-05-21-09:32
@@ -1985,27 +1994,17 @@ LaTeX Info: Redefining \. on input line 158.
 LaTeX Info: Redefining \% on input line 158.
 LaTeX Info: Redefining \microtypecontext on input line 158.
 Package microtype Info: Generating DVI output.
-Package microtype Info: Character protrusion enabled (level 2).
-Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: No character protrusion.
 Package microtype Info: No font expansion.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
-(RS)
-)
+Package microtype Info: Redefining babel's language switching commands.
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 159.
-
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `cmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-) [1
+)) [1
 
 ] [2]
 
@@ -2038,16 +2037,10 @@ LaTeX Font Info:    Try loading font information for U+msa on input line 41.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
 LaTeX Font Info:    Try loading font information for U+msb on input line 41.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ) [3]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 62.
  [4]
@@ -2062,12 +2055,12 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 62.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 62.
  ) 
 Here is how much of TeX's memory you used:
- 40507 strings out of 492983
- 888406 string characters out of 6134921
- 1362521 words of memory out of 5000000
- 43178 multiletter control sequences out of 15000+600000
+ 40357 strings out of 492983
+ 884956 string characters out of 6134921
+ 1364304 words of memory out of 5000000
+ 43036 multiletter control sequences out of 15000+600000
  6441 words of font info for 25 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,5n,101p,1536b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on feedback.dvi (4 pages, 17036 bytes).
+Output written on feedback.dvi (4 pages, 17500 bytes).
