@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2018.10.12)  4 DEC 2018 22:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2018.10.12)  5 DEC 2018 03:32
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2023,7 +2023,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 31.
 Here is how much of TeX's memory you used:
  36497 strings out of 492983
  788564 string characters out of 6134921
- 1219848 words of memory out of 5000000
+ 1219847 words of memory out of 5000000
  39240 multiletter control sequences out of 15000+600000
  4742 words of font info for 17 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
