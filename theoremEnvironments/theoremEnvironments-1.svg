@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="no"?> 
+<?xml-stylesheet href="theoremEnvironments.css" type="text/css"?> 
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="345.0pt" height="40.58896pt" viewBox="0.0 0.0 345.0 40.58896 "> 
+<g transform="translate(0, 40.58896 ) scale(1,-1) translate(0,0.0 )"> 
+</p><g>
+ <g stroke="rgb(0.0%,0.0%,0.0%)">
+ <g fill="rgb(0.0%,0.0%,0.0%)">
+ <g stroke-width="0.4pt">
+ <g>
+ <g>
+ <g>
+ <g stroke-width="0.0pt">
+ <g>
+ <g stroke-width="0.0pt">
+ </g>
+ </g>
+ <g>
+ <g transform="matrix(1.0,0.0,0.0,1.0,172.5,20.29448)">
+ <g fill="rgb(0.0%,0.0%,0.0%)">
+ <text style="stroke:none" transform="scale(1,-1) translate(0.0,0)" text-anchor="middle"  font-size="10"> 
+</text> 
+</g>
+ </g>
+ </g>
+ </g>
+ </g>
+ <g>
+ <g stroke-width="0.0pt">
+ <g>
+ <g stroke-width="0.0pt">
+ </g>
+ </g>
+ <g>
+ <g transform="matrix(1.0,0.0,0.0,1.0,172.5,11.84515)">
+ <g fill="rgb(0.0%,0.0%,0.0%)">
+ <text style="stroke:none" transform="scale(1,-1) translate(0.0,0)" text-anchor="middle"  font-size="10"> 
+</text> 
+</g>
+ </g>
+ </g>
+ </g>
+ </g>
+ <g>
+ <g stroke-width="0.0pt">
+ <g>
+ <g stroke-width="0.0pt">
+ </g>
+ </g>
+ <g>
+ <g transform="matrix(1.0,0.0,0.0,1.0,172.5,35.71579)">
+ <g fill="rgb(0.0%,0.0%,0.0%)">
+ <text style="stroke:none" transform="scale(1,-1) translate(0.0,0)" text-anchor="middle"  font-size="10"> 
+</text> 
+</g>
+ </g>
+ </g>
+ </g>
+ </g>
+ </g>
+ <g>
+ <g fill="rgb(25.0%,25.0%,25.0%)">
+ <g fill-opacity="1.0">
+ <g stroke="rgb(94.11926%,94.11926%,94.11926%)">
+ <path d=" M  0.0 0.0 L  0.0 40.58896 L  345.0 40.58896 L  345.0 0.0 Z  " style="fill:none"/>
+ </g>
+ </g>
+ </g>
+ </g>
+ <g>
+ <g fill="rgb(94.9997%,94.9997%,94.9997%)">
+ <g fill-opacity="1.0">
+ <g stroke="rgb(94.11926%,94.11926%,94.11926%)">
+ <path d=" M  0.0 1.42262 L  0.0 22.26768 L  345.0 22.26768 L  345.0 1.42262 Z  " style="fill:none"/>
+ </g>
+ </g>
+ </g>
+ </g>
+ <g>
+ <g fill="rgb(50.0%,50.0%,50.0%)">
+ <g fill-opacity="1.0">
+ <g stroke="rgb(94.11926%,94.11926%,94.11926%)">
+ <path d=" M  0.0 32.26524 L  0.0 39.16634 L  345.0 39.16634 L  345.0 32.26524 Z  " style="fill:none"/>
+ </g>
+ </g>
+ </g>
+ </g>
+ <g>
+ <g stroke="rgb(94.11926%,94.11926%,94.11926%)">
+ <g stroke-width="9.99756pt">
+ <path d=" M  4.99878 22.26768 L  4.99878 1.42262  " style="fill:none"/>
+ </g>
+ </g>
+ </g>
+ <g>
+ <g stroke="rgb(94.11926%,94.11926%,94.11926%)">
+ <g stroke-width="9.99756pt">
+ <path d=" M  4.99878 39.16634 L  4.99878 32.26524  " style="fill:none"/>
+ </g>
+ </g>
+ </g>
+ <g>
+ <g fill-opacity="1.0">
+ <g>
+ <g transform="matrix(1.0,0.0,0.0,1.0,19.99512,32.26524)">
+ <g fill="rgb(0.0%,0.0%,0.0%)">
+ <text style="stroke:none" transform="scale(1,-1) translate(152.50488,0)" text-anchor="middle"  font-size="10"> 
+<!--l. 35--><p class="noindent" >Definición 1                                                                </text> 
+</g>
+ </g>
+ </g>
+ </g>
+ </g>
+ <g>
+ <g fill-opacity="1.0">
+ <g>
+ <g transform="matrix(1.0,0.0,0.0,1.0,19.99512,3.3666)">
+ <g fill="rgb(0.0%,0.0%,0.0%)">
+ <text style="stroke:none" transform="scale(1,-1) translate(152.50488,0)" text-anchor="middle"  font-size="10"> 
+</p><!--l. 35--><p class="noindent" >Diremos que una variable aleatoria  <script type="math/tex">X</script> es continua si, para todo numero
+real <script type="math/tex">x</script> se tiene que <script type="math/tex; mode=display"> P(X=x)=0. </script>                                                                    </text> 
+</g>
+ </g>
+ </g>
+ </g>
+ </g>
+ </g>
+ </g>
+ </g>
+ </g>
+ </g>
+             </g> 
+</svg> 
