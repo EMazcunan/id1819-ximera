@@ -1,24 +1,6 @@
 \newenvironment {prompt}{}{}
 \newcommand {\DeclareMathOperator }[2]{\@OldDeclareMathOperator {##1}{##2}\immediate \write \myfile {\unexpanded {\DeclareMathOperator }{\unexpanded {##1}}{\unexpanded {##2}}}}
 \newcommand {\ungraded }[0]{}
-\newcommand {\T1\` }[0]{\add@accent {0}}
-\newcommand {\T1\' }[0]{\add@accent {1}}
-\newcommand {\T1\^ }[0]{\add@accent {2}}
-\newcommand {\T1\~ }[0]{\add@accent {3}}
-\newcommand {\T1\" }[0]{\add@accent {4}}
-\newcommand {\T1\H }[0]{\add@accent {5}}
-\newcommand {\T1\r }[0]{\add@accent {6}}
-\newcommand {\T1\v }[0]{\add@accent {7}}
-\newcommand {\T1\u }[0]{\add@accent {8}}
-\newcommand {\T1\= }[0]{\add@accent {9}}
-\newcommand {\T1\. }[0]{\add@accent {10}}
-\newcommand {\T1\b }[1]{\hmode@bgroup \o@lign {\relax ##1\crcr \hidewidth \ltx@sh@ft {-3ex}\vbox to.2ex{\hbox {\char 9}\vss }\hidewidth }\egroup }
-\newcommand {\T1\c }[1]{\leavevmode \setbox \z@ \hbox {##1}\ifdim \ht \z@ =1ex\accent 11 ##1\else {\ooalign {\unhbox \z@ \crcr \hidewidth \char 11\hidewidth }}\fi }
-\newcommand {\T1\d }[1]{\hmode@bgroup \o@lign {\relax ##1\crcr \hidewidth \ltx@sh@ft {-1ex}.\hidewidth }\egroup }
-\newcommand {\T1\k }[1]{\hmode@bgroup \ooalign {\null ##1\crcr \hidewidth \char 12}\egroup }
-\newcommand {\T1\textogonekcentered }[1]{\hmode@bgroup \ooalign {\null ##1\crcr \hidewidth \char 12\hidewidth }\egroup }
-\newcommand {\T1\textperthousand }[0]{\%\char 24 }
-\newcommand {\T1\textpertenthousand }[0]{\%\char 24\char 24 }
 \newcommand {\bbl@trace }[1]{}
 \newcommand {\reserved@a }[0]{}
 \newcommand {\reserved@a }[0]{\bbl@error {Not yet available}{Find an armchair, sit down and wait}}
