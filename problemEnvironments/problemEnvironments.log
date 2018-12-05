@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2018.10.12)  4 DEC 2018 22:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2018.10.12)  5 DEC 2018 23:14
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -114,26 +114,27 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+(/home/eva/texmf/tex/latex/pgf/frontendlayer/tikz.sty
+(/home/eva/texmf/tex/latex/pgf/basiclayer/pgf.sty
+(/home/eva/texmf/tex/latex/pgf/utilities/pgfrcs.sty
+(/home/eva/texmf/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks19
 \pgfutil@tempdima=\dimen112
 \pgfutil@tempdimb=\dimen113
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
-ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+(/home/eva/texmf/tex/generic/pgf/utilities/pgfutil-common-lists.tex))
+(/home/eva/texmf/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box28
+
 (/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/home/eva/texmf/tex/generic/pgf/utilities/pgfrcs.code.tex
 Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
 ))
 Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
 
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/home/eva/texmf/tex/latex/pgf/basiclayer/pgfcore.sty
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -155,16 +156,15 @@ Package graphics Info: Driver file: dvips.def on input line 99.
 \Gin@req@height=\dimen114
 \Gin@req@width=\dimen115
 )
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+(/home/eva/texmf/tex/latex/pgf/systemlayer/pgfsys.sty
+(/home/eva/texmf/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+(/home/eva/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks21
 \pgfkeys@temptoks=\toks22
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
-ex
+(/home/eva/texmf/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
 \pgfkeys@tmptoks=\toks23
 ))
 \pgf@x=\dimen116
@@ -184,7 +184,8 @@ ex
 \t@pgf@toka=\toks24
 \t@pgf@tokb=\toks25
 \t@pgf@tokc=\toks26
- (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+
+(/home/eva/texmf/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
 Driver file for pgf: pgfsys-tex4ht.def
@@ -192,8 +193,7 @@ Driver file for pgf: pgfsys-tex4ht.def
 (/home/eva/texmf/tex/latex/local/ximeraLatex/pgfsys-tex4ht.def
 File: pgfsys-tex4ht.def 2013/08/06  (rcs-revision 1.25)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-svg.de
-f
+(/home/eva/texmf/tex/generic/pgf/systemlayer/pgfsys-common-svg.def
 File: pgfsys-common-svg.def 2013/08/28  (rcs-revision 1.24)
 \pgf@sys@svg@objectcount=\count93
 \pgf@sys@svg@scopecount=\count94
@@ -204,23 +204,21 @@ File: pgfsys-common-svg.def 2013/08/28  (rcs-revision 1.24)
 \pgf@s=\dimen124
 \pgf@t=\dimen125
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
-tex
+(/home/eva/texmf/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
 \pgfsyssoftpath@smallbuffer@items=\count97
 \pgfsyssoftpath@bigbuffer@items=\count98
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
-tex
+(/home/eva/texmf/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+(/home/eva/texmf/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+(/home/eva/texmf/tex/generic/pgf/math/pgfmath.code.tex
+(/home/eva/texmf/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/home/eva/texmf/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/home/eva/texmf/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen126
 \pgfmath@count=\count99
 \pgfmath@box=\box30
@@ -228,28 +226,19 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 \pgfmath@stack@operand=\toks28
 \pgfmath@stack@operation=\toks29
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
-.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
-ric.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
-e.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
-.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
-tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
-.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
-tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
-thmetics.code.tex)))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+(/home/eva/texmf/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/home/eva/texmf/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
+(/home/eva/texmf/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex)
+(/home/eva/texmf/tex/generic/pgf/math/pgfmathfunctions.random.code.tex)
+(/home/eva/texmf/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex)
+(/home/eva/texmf/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
+(/home/eva/texmf/tex/generic/pgf/math/pgfmathfunctions.round.code.tex)
+(/home/eva/texmf/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)
+(/home/eva/texmf/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.
+tex))) (/home/eva/texmf/tex/generic/pgf/math/pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count100
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
-x
+(/home/eva/texmf/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@picminx=\dimen127
 \pgf@picmaxx=\dimen128
@@ -266,113 +255,100 @@ File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@zx=\dimen139
 \pgf@zy=\dimen140
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
-code.tex
+(/home/eva/texmf/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
 \pgf@path@lastx=\dimen141
 \pgf@path@lasty=\dimen142
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
-.tex
+(/home/eva/texmf/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
 \pgf@shorten@end@additional=\dimen143
 \pgf@shorten@start@additional=\dimen144
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
-x
+(/home/eva/texmf/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box31
 \pgf@hbox=\box32
 \pgf@layerbox@main=\box33
 \pgf@picture@serial@count=\count101
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
-ode.tex
+(/home/eva/texmf/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
 \pgflinewidth=\dimen145
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
-s.code.tex
+(/home/eva/texmf/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
 \pgf@pt@x=\dimen146
 \pgf@pt@y=\dimen147
 \pgf@pt@temp=\dimen148
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+(/home/eva/texmf/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
-ex
+(/home/eva/texmf/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
-.code.tex
+(/home/eva/texmf/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
-x
+(/home/eva/texmf/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 \pgfarrowsep=\dimen149
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+(/home/eva/texmf/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen150
 \pgf@sys@shading@range@num=\count102
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+(/home/eva/texmf/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
-tex
+(/home/eva/texmf/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
 \pgfexternal@startupbox=\box34
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
-x
+(/home/eva/texmf/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
-ode.tex
+(/home/eva/texmf/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
 File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
-tex
+(/home/eva/texmf/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
 File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 )))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+(/home/eva/texmf/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
 \pgfnodeparttextbox=\box35
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+)
+(/home/eva/texmf/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
-.sty
+(/home/eva/texmf/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
 \pgf@nodesepstart=\dimen151
 \pgf@nodesepend=\dimen152
 )
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
-.sty
+(/home/eva/texmf/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
-)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+))
+(/home/eva/texmf/tex/latex/pgf/utilities/pgffor.sty
+(/home/eva/texmf/tex/latex/pgf/utilities/pgfkeys.sty
+(/home/eva/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/home/eva/texmf/tex/latex/pgf/math/pgfmath.sty
+(/home/eva/texmf/tex/generic/pgf/math/pgfmath.code.tex))
+(/home/eva/texmf/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+(/home/eva/texmf/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen153
 \pgffor@skip=\dimen154
 \pgffor@stack=\toks30
 \pgffor@toks=\toks31
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+(/home/eva/texmf/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
-.code.tex
+(/home/eva/texmf/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \pgf@plot@mark@count=\count103
 \pgfplotmarksize=\dimen155
@@ -392,7 +368,7 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikznumberofcurrentchild=\count106
 \tikz@fig@count=\count107
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+(/home/eva/texmf/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 \pgfmatrixcurrentrow=\count108
 \pgfmatrixcurrentcolumn=\count109
@@ -400,11 +376,10 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 )
 \tikz@expandcount=\count111
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarytopaths.code.tex
+(/home/eva/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopath
+s.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
-)))
-(/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplots.sty
+))) (/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplots.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
 Package: pgfplots 2017/06/05 v1.15 Data Visualization (1.15)
 
@@ -423,8 +398,7 @@ Package: pgfplots 2017/06/05 v1.15 Data Visualization (1.15)
 ex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
 gfsupp_loader.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex
-)
+(/home/eva/texmf/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
 Package pgfplots: loading complementary arithmetics for your pgf version...
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
@@ -480,10 +454,9 @@ e.tex)
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarydecorations.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
-e.tex
+(/home/eva/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecora
+tions.code.tex
+(/home/eva/texmf/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
 \pgfdecoratedcompleteddistance=\dimen163
 \pgfdecoratedremainingdistance=\dimen164
 \pgfdecoratedinputsegmentcompleteddistance=\dimen165
@@ -495,14 +468,14 @@ e.tex
 )
 \tikz@lib@dec@box=\box40
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarydecorations.pathmorphing.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
-decorations.pathmorphing.code.tex))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarydecorations.pathreplacing.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
-decorations.pathreplacing.code.tex))
+(/home/eva/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecora
+tions.pathmorphing.code.tex
+(/home/eva/texmf/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pa
+thmorphing.code.tex))
+(/home/eva/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecora
+tions.pathreplacing.code.tex
+(/home/eva/texmf/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pa
+threplacing.code.tex))
 \pgfplots@numplots=\count119
 \pgfplots@xmin@reg=\dimen170
 \pgfplots@xmax@reg=\dimen171
@@ -511,12 +484,11 @@ decorations.pathreplacing.code.tex))
 \pgfplots@zmin@reg=\dimen174
 \pgfplots@zmax@reg=\dimen175
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryplotmarks.code.tex
+(/home/eva/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryplotma
+rks.code.tex
 File: tikzlibraryplotmarks.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.co
-de.tex
+(/home/eva/texmf/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
 )))
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.gr
@@ -525,11 +497,10 @@ oupplots.code.tex
 \pgfplots@group@current@row=\count121
 \pgfplots@group@current@column=\count122
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarycalc.code.tex
+(/home/eva/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.c
+ode.tex
 File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
-))
-(/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
 Package: fancyvrb 2008/02/07
 
 Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
@@ -773,11 +744,10 @@ Package epstopdf Warning: Drivers other than `pdftex' and `luatex' are not supp
 orted.
 
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/libraries/tikzlibrar
-yexternal.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zexternalshared.code.tex))
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/home/eva/texmf/tex/latex/pgf/frontendlayer/libraries/tikzlibraryexternal.code
+.tex
+(/home/eva/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzexternalshare
+d.code.tex)) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
@@ -1268,6 +1238,85 @@ Package babel Info: Making > an active character on input line 707.
 (/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
 \c@lips@count=\count193
+)
+(/home/eva/texmf/tex/latex/local/lnthm/lnthm.sty
+Package: lnthm Theorems in lesson notes
+
+(/home/eva/texmf/tex/latex/local/lnbox/lnbox.sty
+Package: lnbox Boxes from tcolorbox for theorems and exercises in lesson notes
+
+(/home/eva/texmf/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2018/01/12 version 4.12 text color boxes
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks58
+\verbatim@line=\toks59
+\verbatim@in@stream=\read3
+)
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count194
+)
+\tcb@titlebox=\box46
+\tcb@upperbox=\box47
+\tcb@lowerbox=\box48
+\tcb@phantombox=\box49
+\c@tcbbreakpart=\count195
+\c@tcblayer=\count196
+\tcolorbox@number=\count197
+\tcb@temp=\box50
+\tcb@temp=\box51
+\tcb@temp=\box52
+\tcb@temp=\box53
+\tcb@out=\write6
+\tcb@record@out=\write7
+
+(/home/eva/texmf/tex/latex/tcolorbox/tcbbreakable.code.tex
+Library (tcolorbox): 'tcbbreakable.code.tex' version '4.12'
+\tcb@testbox=\box54
+\tcb@totalupperbox=\box55
+\tcb@totallowerbox=\box56
+) (/home/eva/texmf/tex/latex/tcolorbox/tcbskins.code.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '4.12'
+(/usr/share/texlive/texmf-dist/tex/generic/tex4ht/usepackage.4ht)
+\tcb@waterbox=\box57
+
+(/home/eva/texmf/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '4.12'
+)) (/home/eva/texmf/tex/latex/tcolorbox/tcbhooks.code.tex
+Library (tcolorbox): 'tcbhooks.code.tex' version '4.12'
+) (/home/eva/texmf/tex/latex/tcolorbox/tcblistings.code.tex
+Library (tcolorbox): 'tcblistings.code.tex' version '4.12'
+(/home/eva/texmf/tex/latex/tcolorbox/tcblistingscore.code.tex
+Library (tcolorbox): 'tcblistingscore.code.tex' version '4.12'
+(/home/eva/texmf/tex/latex/tcolorbox/tcbprocessing.code.tex
+Library (tcolorbox): 'tcbprocessing.code.tex' version '4.12'
+(/usr/share/texlive/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
+Package shellesc Info: Unrestricted shell escape enabled on input line 67.
+))
+\c@tcblisting=\count198
+)))
+\ln@box@indent=\skip61
+\ln@box@delimiter@width=\skip62
+)
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
+\@xs@message=\write8
+\integerpart=\count199
+\decimalpart=\count266
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
+\c@thmno=\count267
+\c@dfnno=\count268
+\c@exmpno=\count269
+\c@prpno=\count270
+\c@lmmno=\count271
+\c@crlno=\count272
+\c@algno=\count273
+\c@rmkno=\count274
 ))
 (/home/eva/texmf/tex/latex/local/ximeraLatex/ximera.cfg
 (/usr/share/texlive/texmf-dist/tex/generic/tex4ht/tex4ht.4ht
@@ -1283,14 +1332,14 @@ version 2017-05-09-09:21
 version 2018-02-11-15:01
 
 --- needs --- tex4ht problemEnvironments ---
-\tmp:cnt=\count194
+\tmp:cnt=\count275
 \openout15 = `problemEnvironments.tmp'.
 
 (./problemEnvironments.tmp)
-\tmp:dim=\skip61
+\tmp:dim=\skip63
  (./problemEnvironments.xref)
-\:refout=\write6
-\openout6 = `problemEnvironments.xref'.
+\:refout=\write9
+\openout9 = `problemEnvironments.xref'.
 
 
 (/usr/share/texlive/texmf-dist/tex/generic/tex4ht/html4.4ht
@@ -1367,8 +1416,8 @@ on `imgdir:.../'
 (/usr/share/texlive/texmf-dist/tex/generic/tex4ht/html4-math.4ht
 version 2017-03-30-16:04
 )
-\:tokwrite=\toks58
-\:tokpage=\toks59
+\:tokwrite=\toks60
+\:tokpage=\toks61
 --------------------------------------
 --- Note --- for back links to toc, use the command line option `sections+'
 --------------------------------------
@@ -1378,8 +1427,8 @@ version 2017-03-30-16:04
 --------------------------------------
 \openout15 = `problemEnvironments.4ct'.
 
-\:tocout=\write7
-\openout7 = `problemEnvironments.4tc'.
+\:tocout=\write10
+\openout10 = `problemEnvironments.4tc'.
 
 
 (/usr/share/texlive/texmf-dist/tex/generic/tex4ht/html4.4ht
@@ -1505,19 +1554,19 @@ version 2017-03-30-16:04
 (/home/eva/texmf/tex/latex/local/ximeraLatex/ximera.4ht
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2018/01/14 v2.7a Micro-typographical refinements (RS)
-\MT@toks=\toks60
-\MT@count=\count195
+\MT@toks=\toks62
+\MT@count=\count276
 LaTeX Info: Redefining \textls on input line 793.
 \MT@outer@kern=\dimen196
 LaTeX Info: Redefining \textmicrotypecontext on input line 1339.
-\MT@listname@count=\count196
+\MT@listname@count=\count277
 
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2018/01/14 v2.7a Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 913.
 LaTeX Info: Redefining \lslig on input line 913.
-\MT@outer@space=\skip62
+\MT@outer@space=\skip64
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
@@ -1538,7 +1587,7 @@ l.51 \Configure
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-\c@identification=\count197
+\c@identification=\count278
 
 /home/eva/texmf/tex/latex/local/ximeraLatex/ximera.4ht:69: LaTeX Error: Environ
 ment xarmaBoost undefined in `ximera.cfg'.
@@ -1565,8 +1614,8 @@ l.71 \ConfigureQuestionEnv{shuffle}{shuffle}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-\c@imagealt=\count198
-\c@choiceId=\count199
+\c@imagealt=\count279
+\c@choiceId=\count280
 /home/eva/texmf/tex/latex/local/ximeraLatex/ximera.4ht:234: Illegal parameter n
 umber in definition of \desmos.
 <to be read again> 
@@ -1825,7 +1874,7 @@ version 2017-03-30-16:04
 (/usr/share/texlive/texmf-dist/tex/generic/tex4ht/hyperref.4ht
 version 2016-01-12-16:05
 LaTeX Info: Redefining \autoref on input line 95.
-\Hy@SectionHShift=\skip63
+\Hy@SectionHShift=\skip65
 
 (/usr/share/texlive/texmf-dist/tex/generic/tex4ht/html4.4ht
 version 2018-02-21-09:31
@@ -1878,6 +1927,16 @@ version 2018-02-21-09:31
 (/usr/share/texlive/texmf-dist/tex/generic/tex4ht/html4-math.4ht
 version 2017-03-30-16:04
 ))
+(/home/eva/texmf/tex/latex/local/lnthm/lnthm.4ht)
+(/usr/share/texlive/texmf-dist/tex/generic/tex4ht/verbatim.4ht
+version 2009-05-21-09:32
+
+(/usr/share/texlive/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2018-02-21-09:31
+)
+(/usr/share/texlive/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2017-03-30-16:04
+))
 (/usr/share/texlive/texmf-dist/tex/generic/tex4ht/html4.4ht
 version 2018-02-21-09:31
 )
@@ -1888,12 +1947,11 @@ runsystem(sed -i "/@/d" problemEnvironments.jax)...executed.
 
 runsystem(sed -i "s/##\\([0-9]\\)/#\\1/g" problemEnvironments.jax)...executed.
 
+\eqtoks=\toks63
 
-l.53 --- TeX4ht warning --- \Configure{verbatiminput}? ---
-\eqtoks=\toks61
 (./problemEnvironments.oc) (./problemEnvironments.aux
-LaTeX Info: Redefining \. on input line 22.
-LaTeX Info: Redefining \% on input line 22.
+LaTeX Info: Redefining \. on input line 23.
+LaTeX Info: Redefining \% on input line 23.
 )
 \openout1 = `problemEnvironments.aux'.
 
@@ -1918,8 +1976,8 @@ ick labels; missing features). Consider writing \pgfplotsset{compat=1.15} into
 your preamble.
  on input line 158.
 
-\c@lstlisting=\count266
-\AtBeginShipoutBox=\box46
+\c@lstlisting=\count281
+\AtBeginShipoutBox=\box58
 Package hyperref Info: Link coloring ON on input line 158.
 LaTeX Info: Redefining \ref on input line 158.
 LaTeX Info: Redefining \pageref on input line 158.
@@ -2000,20 +2058,20 @@ Package atveryend Info: Empty hook `BeforeClearDocument' on input line 91.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 91.
 
 (./problemEnvironments.aux
-LaTeX Info: Redefining \. on input line 22.
-LaTeX Info: Redefining \% on input line 22.
+LaTeX Info: Redefining \. on input line 23.
+LaTeX Info: Redefining \% on input line 23.
 )
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 91.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 91.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 91.
  ) 
 Here is how much of TeX's memory you used:
- 36571 strings out of 492983
- 790074 string characters out of 6134921
- 1220047 words of memory out of 5000000
- 39299 multiletter control sequences out of 15000+600000
+ 40521 strings out of 492983
+ 888882 string characters out of 6134921
+ 1362647 words of memory out of 5000000
+ 43192 multiletter control sequences out of 15000+600000
  6441 words of font info for 25 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,6n,98p,1232b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 74i,6n,101p,1547b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on problemEnvironments.dvi (5 pages, 14276 bytes).
+Output written on problemEnvironments.dvi (5 pages, 19136 bytes).

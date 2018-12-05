@@ -104,7 +104,7 @@
  <g transform="matrix(1.0,0.0,0.0,1.0,19.99512,32.26524)">
  <g fill="rgb(0.0%,0.0%,0.0%)">
  <text style="stroke:none" transform="scale(1,-1) translate(152.50488,0)" text-anchor="middle"  font-size="10"> 
-<!--l. 35--><p class="noindent" >Definición 1                                                                </text> 
+<!--l. 33--><p class="noindent" >Definición 1                                                                </text> 
 </g>
  </g>
  </g>
@@ -116,7 +116,7 @@
  <g transform="matrix(1.0,0.0,0.0,1.0,19.99512,3.3666)">
  <g fill="rgb(0.0%,0.0%,0.0%)">
  <text style="stroke:none" transform="scale(1,-1) translate(152.50488,0)" text-anchor="middle"  font-size="10"> 
-</p><!--l. 35--><p class="noindent" >Diremos que una variable aleatoria  <script type="math/tex">X</script> es continua si, para todo numero
+</p><!--l. 33--><p class="noindent" >Diremos que una variable aleatoria  <script type="math/tex">X</script> es continua si, para todo numero
 real <script type="math/tex">x</script> se tiene que <script type="math/tex; mode=display"> P(X=x)=0. </script>                                                                    </text> 
 </g>
  </g>

@@ -13,7 +13,7 @@
 <meta name="ximera" content="version 0.0.1"/> 
 <link href="https://ximera.osu.edu/public/stylesheets/standalone.css" rel="stylesheet" media="screen"/> 
 <script type="text/javascript" async="" src="https://ximera.osu.edu/public/javascripts/standalone.min.js"></script> 
-<meta name="dependency" content="ce78325d31959c5478ad80c282d93f77facc6391 preamble.tex"/><meta name="dependency" content="7d2954178712a6f0a06bbae1340569e5c42f7ef1 problemEnvironments/problemEnvironments.tex"/></head><body> 
+<meta name="dependency" content="11583948d1e83c481215d4bd57e477dc65fdcf62 preamble.tex"/><meta name="dependency" content="7d2954178712a6f0a06bbae1340569e5c42f7ef1 problemEnvironments/problemEnvironments.tex"/></head><body> 
 <div class="preamble"><script type="math/tex">\newenvironment {prompt}{}{}
 \newcommand {\ungraded }[0]{}
 \newcommand {\T1\textperthousand }[0]{\%\char 24 }
@@ -102,7 +102,70 @@
 \newcommand {\spanishtoday }[0]{\spanishdate {\year }{\month }{\day }}
 \newcommand {\spanishToday }[0]{\spanishDate {\year }{\month }{\day }}
 \newcommand {\lipsumexp }[0]{}
-\newcommand {\HyperFirstAtBeginDocument }[0]{\AtBeginDocument }                                                  </script><script type="text/javascript"> 
+\newcommand {\newrobustcmd }[0]{}
+\newcommand {\csshow }[1]{\begingroup \expandafter \endgroup \expandafter \show \csname #1\endcsname }
+\newcommand {\csmeaning }[1]{\ifcsname #1\endcsname \expandafter \meaning \csname #1\endcsname \else \detokenize {undefined}\fi }
+\newcommand {\ifdefmacro }[0]{}
+\newcommand {\ifdefparam }[0]{}
+\newcommand {\ifdefprotected }[0]{}
+\newcommand {\ifnumequal }[1]{\ifnumcomp {#1}=}
+\newcommand {\ifnumgreater }[1]{\ifnumcomp {#1}&#x003E;}
+\newcommand {\ifnumless }[1]{\ifnumcomp {#1}&#x003C;}
+\newcommand {\ifdimequal }[1]{\ifdimcomp {#1}=}
+\newcommand {\ifdimgreater }[1]{\ifdimcomp {#1}&#x003E;}
+\newcommand {\ifdimless }[1]{\ifdimcomp {#1}&#x003C;}
+\newcommand {\expandonce }[1]{\unexpanded \expandafter {#1}}
+\newcommand {\csexpandonce }[1]{\expandafter \expandonce \csname #1\endcsname }
+\newcommand {\protecting }[0]{}
+\newcommand {\csdef }[1]{\expandafter \def \csname #1\endcsname }
+\newcommand {\csedef }[1]{\expandafter \edef \csname #1\endcsname }
+\newcommand {\csgdef }[1]{\expandafter \gdef \csname #1\endcsname }
+\newcommand {\csxdef }[1]{\expandafter \xdef \csname #1\endcsname }
+\newcommand {\cslet }[2]{\expandafter \let \csname #1\endcsname #2}
+\newcommand {\letcs }[2]{\ifcsdef {#2} {\expandafter \let \expandafter #1\csname #2\endcsname } {\undef #1}}
+\newcommand {\csletcs }[2]{\ifcsdef {#2} {\expandafter \let \csname #1\expandafter \endcsname \csname #2\endcsname } {\csundef {#1}}}
+\newcommand {\csuse }[1]{\ifcsname #1\endcsname \csname #1\expandafter \endcsname \fi }
+\newcommand {\appto }[2]{\ifundef {#1} {\edef #1{\unexpanded {#2}}} {\edef #1{\expandonce #1\unexpanded {#2}}}}
+\newcommand {\eappto }[2]{\ifundef {#1} {\edef #1{#2}} {\edef #1{\expandonce #1#2}}}
+\newcommand {\gappto }[2]{\ifundef {#1} {\xdef #1{\unexpanded {#2}}} {\xdef #1{\expandonce #1\unexpanded {#2}}}}
+\newcommand {\xappto }[2]{\ifundef {#1} {\xdef #1{#2}} {\xdef #1{\expandonce #1#2}}}
+\newcommand {\preto }[2]{\ifundef {#1} {\edef #1{\unexpanded {#2}}} {\edef #1{\unexpanded {#2}\expandonce #1}}}
+\newcommand {\epreto }[2]{\ifundef {#1} {\edef #1{#2}} {\edef #1{#2\expandonce #1}}}
+\newcommand {\gpreto }[2]{\ifundef {#1} {\xdef #1{\unexpanded {#2}}} {\xdef #1{\unexpanded {#2}\expandonce #1}}}
+\newcommand {\xpreto }[2]{\ifundef {#1} {\xdef #1{#2}} {\xdef #1{#2\expandonce #1}}}
+\newcommand {\csappto }[1]{\expandafter \appto \csname #1\endcsname }
+\newcommand {\cseappto }[1]{\expandafter \eappto \csname #1\endcsname }
+\newcommand {\csgappto }[1]{\expandafter \gappto \csname #1\endcsname }
+\newcommand {\csxappto }[1]{\expandafter \xappto \csname #1\endcsname }
+\newcommand {\cspreto }[1]{\expandafter \preto \csname #1\endcsname }
+\newcommand {\csepreto }[1]{\expandafter \epreto \csname #1\endcsname }
+\newcommand {\csgpreto }[1]{\expandafter \gpreto \csname #1\endcsname }
+\newcommand {\csxpreto }[1]{\expandafter \xpreto \csname #1\endcsname }
+\newcommand {\csnumdef }[1]{\expandafter \numdef \csname #1\endcsname }
+\newcommand {\csnumgdef }[1]{\expandafter \numgdef \csname #1\endcsname }
+\newcommand {\csdimdef }[1]{\expandafter \dimdef \csname #1\endcsname }
+\newcommand {\csdimgdef }[1]{\expandafter \dimgdef \csname #1\endcsname }
+\newcommand {\csgluedef }[1]{\expandafter \gluedef \csname #1\endcsname }
+\newcommand {\csgluegdef }[1]{\expandafter \gluegdef \csname #1\endcsname }
+\newcommand {\mudef }[2]{\ifundef #1{\def #1{0mu}}{}\edef #1{\the \muexpr #2}}
+\newcommand {\csmudef }[1]{\expandafter \mudef \csname #1\endcsname }
+\newcommand {\csmugdef }[1]{\expandafter \mugdef \csname #1\endcsname }
+\newcommand {\listbreak }[0]{}
+\newcommand {\listadd }[2]{\ifblank {#2}{}{\appto #1{#2|}}}
+\newcommand {\listgadd }[2]{\ifblank {#2}{}{\gappto #1{#2|}}}
+\newcommand {\listcsadd }[1]{\expandafter \listadd \csname #1\endcsname }
+\newcommand {\listcseadd }[1]{\expandafter \listeadd \csname #1\endcsname }
+\newcommand {\listcsgadd }[1]{\expandafter \listgadd \csname #1\endcsname }
+\newcommand {\listcsxadd }[1]{\expandafter \listxadd \csname #1\endcsname }
+\newcommand {\listcsremove }[1]{\expandafter \listremove \csname #1\endcsname }
+\newcommand {\listcsgremove }[1]{\expandafter \listgremove \csname #1\endcsname }
+\newcommand {\dolistloop }[0]{\forlistloop \do }
+\newcommand {\dolistcsloop }[0]{\forlistcsloop \do }
+\newcommand {\AfterPreamble }[0]{\AtBeginDocument }
+\newcommand {\tcolorboxenvironment }[2]{\BeforeBeginEnvironment {#1}{\begin {tcolorbox}[savedelimiter={#1},#2]}\AfterEndEnvironment {#1}{\end {tcolorbox}}}
+\newcommand {\tcbpkgprefix }[0]{}
+\newcommand {\delimitertop }[0]{interior.north west}
+\newcommand {\HyperFirstAtBeginDocument }[0]{\AtBeginDocument }                                                                                            </script><script type="text/javascript"> 
 </script> 
 </div>
 
@@ -115,24 +178,24 @@ Online these act much like theorem-like environments.
 end of each of these. Moreoever, nested problem envionments will number as sub
 problems in the PDF.
 </p>
-<div role="article" class="problem-environment exercise" id="problem1"><a id="x1-91r1"></a> Type <script type="math/tex">2</script>: <script type="math/tex">\answer {2}</script>.
+<div role="article" class="problem-environment exercise" id="problem1"><a id="x1-154r1"></a> Type <script type="math/tex">2</script>: <script type="math/tex">\answer {2}</script>.
 </div>
-<div role="article" class="problem-environment exercise" id="problem2"><a id="x1-92r2"></a> Type <script type="math/tex">2</script>: <script type="math/tex">\answer {2}</script>. <div role="article" class="problem-environment exercise" id="problem3"><a id="x1-93r3"></a> Type <script type="math/tex">2</script>: <script type="math/tex">\answer {2}</script>.
-</div>
-</div>
-<div role="article" class="problem-environment problem" id="problem4"><a id="x1-94r4"></a> Type <script type="math/tex">2</script>: <script type="math/tex">\answer {2}</script>.
-</div>
-<div role="article" class="problem-environment problem" id="problem5"><a id="x1-95r5"></a> Type <script type="math/tex">2</script>: <script type="math/tex">\answer {2}</script>. <div role="article" class="problem-environment problem" id="problem6"><a id="x1-96r6"></a> Type <script type="math/tex">2</script>: <script type="math/tex">\answer {2}</script>.
+<div role="article" class="problem-environment exercise" id="problem2"><a id="x1-155r2"></a> Type <script type="math/tex">2</script>: <script type="math/tex">\answer {2}</script>. <div role="article" class="problem-environment exercise" id="problem3"><a id="x1-156r3"></a> Type <script type="math/tex">2</script>: <script type="math/tex">\answer {2}</script>.
 </div>
 </div>
-<div role="article" class="problem-environment question" id="problem7"><a id="x1-97r7"></a> Type <script type="math/tex">2</script>: <script type="math/tex">\answer {2}</script>.
+<div role="article" class="problem-environment problem" id="problem4"><a id="x1-157r4"></a> Type <script type="math/tex">2</script>: <script type="math/tex">\answer {2}</script>.
 </div>
-<div role="article" class="problem-environment question" id="problem8"><a id="x1-98r8"></a> Type <script type="math/tex">2</script>: <script type="math/tex">\answer {2}</script>. <div role="article" class="problem-environment question" id="problem9"><a id="x1-99r9"></a> Type <script type="math/tex">2</script>: <script type="math/tex">\answer {2}</script>.
+<div role="article" class="problem-environment problem" id="problem5"><a id="x1-158r5"></a> Type <script type="math/tex">2</script>: <script type="math/tex">\answer {2}</script>. <div role="article" class="problem-environment problem" id="problem6"><a id="x1-159r6"></a> Type <script type="math/tex">2</script>: <script type="math/tex">\answer {2}</script>.
 </div>
 </div>
-<div role="article" class="problem-environment exploration" id="problem10"><a id="x1-100r10"></a> Type <script type="math/tex">2</script>: <script type="math/tex">\answer {2}</script>.
+<div role="article" class="problem-environment question" id="problem7"><a id="x1-160r7"></a> Type <script type="math/tex">2</script>: <script type="math/tex">\answer {2}</script>.
 </div>
-<div role="article" class="problem-environment exploration" id="problem11"><a id="x1-101r11"></a> Type <script type="math/tex">2</script>: <script type="math/tex">\answer {2}</script>. <div role="article" class="problem-environment exploration" id="problem12"><a id="x1-102r12"></a> Type <script type="math/tex">2</script>: <script type="math/tex">\answer {2}</script>.
+<div role="article" class="problem-environment question" id="problem8"><a id="x1-161r8"></a> Type <script type="math/tex">2</script>: <script type="math/tex">\answer {2}</script>. <div role="article" class="problem-environment question" id="problem9"><a id="x1-162r9"></a> Type <script type="math/tex">2</script>: <script type="math/tex">\answer {2}</script>.
+</div>
+</div>
+<div role="article" class="problem-environment exploration" id="problem10"><a id="x1-163r10"></a> Type <script type="math/tex">2</script>: <script type="math/tex">\answer {2}</script>.
+</div>
+<div role="article" class="problem-environment exploration" id="problem11"><a id="x1-164r11"></a> Type <script type="math/tex">2</script>: <script type="math/tex">\answer {2}</script>. <div role="article" class="problem-environment exploration" id="problem12"><a id="x1-165r12"></a> Type <script type="math/tex">2</script>: <script type="math/tex">\answer {2}</script>.
 </div>
 </div>
 <!--l. 88--><p class="noindent">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut purus elit, vestibulum ut,
@@ -146,10 +209,10 @@ ac, nunc. Praesent eget sem vel leo ultrices bibendum. Aenean faucibus.
 Morbi dolor nulla, malesuada eu, pulvinar at, mollis ac, nulla. Curabitur
 auctor semper nulla. Donec varius orci eget risus. Duis nibh mi, congue eu,
 accumsan eleifend, sagittis quis, diam. Duis eget orci sit amet orci dignissim
+rutrum.
                                                                   
 
                                                                   
-rutrum.
  
  
 

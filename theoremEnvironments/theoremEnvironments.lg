@@ -24,8 +24,6 @@ htfcss: ecti  font-style: italic;
 htfcss: ectt  font-family: monospace;
 File: theoremEnvironments.html
 File: theoremEnvironments.tmp
-File: theoremEnvironments-1.svg
-File: theoremEnvironments-2.svg
 Font_Css("4"): .small-caps{font-variant: small-caps; }
 Font_Css("10"): .htf-cmbx {font-weight: bold; font-style:normal;}
 Font_Css("12"): .htf-calligraphy {font-family:cursive}
