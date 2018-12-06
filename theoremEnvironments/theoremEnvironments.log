@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.12)  6 DEC 2018 02:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.12)  6 DEC 2018 02:40
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1373,15 +1373,6 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./theoremEnvironments.tex:26: Undefined control sequence.
-l.26 \microtypesetup
-                    {babel}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 LaTeX Font Info:    Try loading font information for U+msa on input line 31.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1428,7 +1419,7 @@ ublic/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1
 texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/pu
 blic/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsl10
 00.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on theoremEnvironments.pdf (3 pages, 151059 bytes).
+Output written on theoremEnvironments.pdf (3 pages, 151049 bytes).
 PDF statistics:
  101 PDF objects out of 1000 (max. 8388607)
  86 compressed objects within 1 object stream
