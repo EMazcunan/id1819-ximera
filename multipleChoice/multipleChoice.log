@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2018.10.12)  6 DEC 2018 02:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2018.10.12)  6 DEC 2018 02:56
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -890,11 +890,21 @@ Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/inputenx.sty
+Package: inputenx 2016/05/16 v1.11 Enhanced input encoding handling (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/ix-alias.def
+File: ix-alias.def 2016/05/16 v1.11 Alias list (inputenx)
+)
+Package inputenx Info: Encoding name: utf8
+(inputenx)             Encoding file: utf8.def
+(inputenx)              on input line 171.
+
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks55
 \inpenc@posthook=\toks56
-
+)
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OML ...
@@ -2050,12 +2060,12 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 24.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 24.
  ) 
 Here is how much of TeX's memory you used:
- 40414 strings out of 492983
- 886738 string characters out of 6134921
- 1363324 words of memory out of 5000000
- 43108 multiletter control sequences out of 15000+600000
+ 40463 strings out of 492983
+ 887653 string characters out of 6134921
+ 1364295 words of memory out of 5000000
+ 43151 multiletter control sequences out of 15000+600000
  4742 words of font info for 17 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,6n,101p,1542b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on multipleChoice.dvi (4 pages, 14864 bytes).
+Output written on multipleChoice.dvi (4 pages, 14968 bytes).
