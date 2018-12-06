@@ -19,6 +19,11 @@
 \newcommand {\T1\textogonekcentered }[1]{\hmode@bgroup \ooalign {\null ##1\crcr \hidewidth \char 12\hidewidth }\egroup }
 \newcommand {\T1\textperthousand }[0]{\%\char 24 }
 \newcommand {\T1\textpertenthousand }[0]{\%\char 24\char 24 }
+\newcommand {\CurrentInputEncodingName }[0]{}
+\newcommand {\CurrentInputEncodingOption }[0]{}
+\newcommand {\BeforeInputEncoding }[0]{\g@addto@macro \IEX@BeforeHook }
+\newcommand {\AfterInputEncoding }[0]{\g@addto@macro \IEX@AfterHook }
+\newcommand {\InputEncoding }[1]{\let \InputEncodingNameOld \CurrentInputEncodingName \let \InputEncodingOptionOld \CurrentInputEncodingOption \edef \InputEncodingNew {##1}\IEX@BeforeHook \IEX@LookupEncoding \InputEncodingNew \ifx \CurrentInputEncodingOption \@empty \else \IEX@SaveFileCatcodes \IEX@SetFileCatcodes \inputencoding {\CurrentInputEncodingOption }\IEX@RestoreFileCatcodes \fi \IEX@AfterHook }
 \newcommand {\bbl@trace }[1]{}
 \newcommand {\reserved@a }[0]{}
 \newcommand {\reserved@a }[0]{\bbl@error {Not yet available}{Find an armchair, sit down and wait}}
@@ -502,6 +507,10 @@
 \newcommand {\tcbdelimiterstar }[3]{\path [draw = ##2, line width=##1] ([xshift=##3, yshift=-\kvtcb@top ]\delimitertop )--([xshift=##3,yshift=-\kvtcb@bottom ]interior.south west);}
 \newcommand {\Thm@headerfont }[0]{\bfseries }
 \newcommand {\ln@endsymbol }[0]{\footnotesize \color {grisuleiii}\ding {118}}
+\newcommand {\reserved@a }[2]{}
+\newcommand {\HyperFirstAtBeginDocument }[0]{\AtBeginDocument }
+\newcommand {\reserved@a }[1]{}
+\newcommand {\reserved@a }[2]{}
 \newcommand {\vnameref  }[1]{\unskip ~\nameref {##1}\@vpageref [\unskip ]{##1}}
 \newcommand {\ref  }[0]{\@ifstar \@refstar \T@ref }
 \newcommand {\pageref  }[0]{\@ifstar \@pagerefstar \T@pageref }

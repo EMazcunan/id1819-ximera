@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.12)  6 DEC 2018 02:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.12)  6 DEC 2018 02:53
 entering extended mode
  \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
-**\PassOptionsToClass{tikzexport}{ximera}\PassOptionsToClass{xake}{ximera}\Pass
-OptionsToClass{xake}{xourse}\nonstopmode\input{theoremEnvironments.tex}
+**theoremEnvironments.tex
 (./theoremEnvironments.tex
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/home/eva/texmf/tex/latex/local/ximeraLatex/ximera.cls
 Document Class: ximera 2018/10/28 v1.00 Simultaneously write print and online i
 nteractive materials
@@ -740,13 +740,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 )))
-(/home/eva/texmf/tex/latex/pgf/frontendlayer/libraries/tikzlibraryexternal.code
-.tex
-(/home/eva/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzexternalshare
-d.code.tex))
-\openout3 = `theoremEnvironments.auxlock'.
-
- (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
@@ -891,11 +885,21 @@ Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/inputenx.sty
+Package: inputenx 2016/05/16 v1.11 Enhanced input encoding handling (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/ix-alias.def
+File: ix-alias.def 2016/05/16 v1.11 Alias list (inputenx)
+)
+Package inputenx Info: Encoding name: utf8
+(inputenx)             Encoding file: utf8.def
+(inputenx)              on input line 171.
+
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks53
 \inpenc@posthook=\toks54
-
+)
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OML ...
@@ -1315,8 +1319,14 @@ Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 \c@crlno=\count272
 \c@algno=\count273
 \c@rmkno=\count274
-))
-No file theoremEnvironments.aux.
+)
+(/home/eva/texmf/tex/latex/pgf/frontendlayer/libraries/tikzlibraryexternal.code
+.tex
+(/home/eva/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzexternalshare
+d.code.tex))
+\openout3 = `theoremEnvironments.auxlock'.
+
+) (./theoremEnvironments.aux)
 \openout1 = `theoremEnvironments.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
@@ -1333,6 +1343,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
+
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count275
@@ -1359,21 +1370,14 @@ Package hyperref Info: Link coloring ON on input line 23.
 LaTeX Info: Redefining \ref on input line 23.
 LaTeX Info: Redefining \pageref on input line 23.
 LaTeX Info: Redefining \nameref on input line 23.
+(./theoremEnvironments.out) (./theoremEnvironments.out)
 \@outlinefile=\write12
 \openout12 = `theoremEnvironments.out'.
 
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
-./theoremEnvironments.tex:26: Undefined control sequence.
-l.26 \microtypesetup
-                    {activate=false}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 LaTeX Font Info:    Try loading font information for U+msa on input line 31.
+
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
@@ -1399,18 +1403,18 @@ Package rerunfilecheck Warning: File `theoremEnvironments.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `theoremEnvironments.out':
-(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
 (rerunfilecheck)             After:  62119C135926C4A78600011616B8BDEF;91.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 176.
  ) 
 Here is how much of TeX's memory you used:
- 35173 strings out of 492982
- 811769 string characters out of 6134895
- 1128678 words of memory out of 5000000
- 38073 multiletter control sequences out of 15000+600000
+ 35219 strings out of 492982
+ 812800 string characters out of 6134895
+ 1129958 words of memory out of 5000000
+ 38107 multiletter control sequences out of 15000+600000
  16892 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,8n,98p,1187b,962s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,8n,98p,1062b,1046s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf/fonts/type1/p
@@ -1419,7 +1423,7 @@ ublic/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1
 texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/pu
 blic/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsl10
 00.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on theoremEnvironments.pdf (3 pages, 150848 bytes).
+Output written on theoremEnvironments.pdf (3 pages, 150797 bytes).
 PDF statistics:
  101 PDF objects out of 1000 (max. 8388607)
  86 compressed objects within 1 object stream
