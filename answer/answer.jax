@@ -1,5 +1,7 @@
 \newenvironment {prompt}{}{}
 \newcommand {\ungraded }[0]{}
+\newcommand {\OT1\textexclamdown }[0]{!`}
+\newcommand {\OT1\textquestiondown }[0]{?`}
 \newcommand {\IfBabelLayout }[3]{#3}
 \newcommand {\babelnullhyphen }[0]{\char \hyphenchar \font }
 \newcommand {\?\quotedblbase }[0]{\UseTextSymbol {OT1}{\quotedblbase }}
@@ -157,4 +159,6 @@
 \newcommand {\tcolorboxenvironment }[2]{\BeforeBeginEnvironment {#1}{\begin {tcolorbox}[savedelimiter={#1},#2]}\AfterEndEnvironment {#1}{\end {tcolorbox}}}
 \newcommand {\tcbpkgprefix }[0]{}
 \newcommand {\delimitertop }[0]{interior.north west}
+\newcommand {\OT1\textexclamdown }[0]{!`}
+\newcommand {\OT1\textquestiondown }[0]{?`}
 \newcommand {\HyperFirstAtBeginDocument }[0]{\AtBeginDocument }

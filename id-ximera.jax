@@ -1,6 +1,8 @@
 \newenvironment {prompt}{}{}
 \newcommand {\ungraded }[0]{}
 \newcommand {\graded }[1]{}
+\newcommand {\OT1\textexclamdown }[0]{!`}
+\newcommand {\OT1\textquestiondown }[0]{?`}
 \newcommand {\IfBabelLayout }[3]{#3}
 \newcommand {\babelnullhyphen }[0]{\char \hyphenchar \font }
 \newcommand {\?\quotedblbase }[0]{\UseTextSymbol {OT1}{\quotedblbase }}

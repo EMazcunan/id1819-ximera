@@ -13,9 +13,11 @@ Fowler"/>
 <meta name="ximera" content="version 0.0.1"/> 
 <link href="https://ximera.osu.edu/public/stylesheets/standalone.css" rel="stylesheet" media="screen"/> 
 <script type="text/javascript" async="" src="https://ximera.osu.edu/public/javascripts/standalone.min.js"></script> 
-<meta name="dependency" content="0c010ca5762c5f0dc1a73197b7ef097dbdfd75f5 preamble.tex"/><meta name="dependency" content="e9b2baff08293ccff003f1b47949049a7ece13c4 feedback/feedback.tex"/></head><body> 
+<meta name="dependency" content="dfe51ed8a861d12aa33c832f7cb61e79eda9353e preamble.tex"/><meta name="dependency" content="e9b2baff08293ccff003f1b47949049a7ece13c4 feedback/feedback.tex"/></head><body> 
 <div class="preamble"><script type="math/tex">\newenvironment {prompt}{}{}
 \newcommand {\ungraded }[0]{}
+\newcommand {\OT1\textexclamdown }[0]{!‘}
+\newcommand {\OT1\textquestiondown }[0]{?‘}
 \newcommand {\IfBabelLayout }[3]{#3}
 \newcommand {\babelnullhyphen }[0]{\char \hyphenchar \font }
 \newcommand {\?\quotedblbase }[0]{\UseTextSymbol {OT1}{\quotedblbase }}
@@ -183,14 +185,14 @@ var y;</script>
 </p></div>   <div class="maketitle"></div>
 An initially hidden environment that uncovers itself at an appropriate feedback
 time.
-<!--l. 17--><p class="noindent">By default, feedback is triggered by an attempt: </p><div role="article" class="problem-environment exercise" id="problem1"><a id="x1-163r1"></a> <div class="multiple-choice" id="problem2"><span class="choice correct " id="choice1">I’m correct</span> <span class="choice  " id="choice2">I’m wrong</span>
+<!--l. 17--><p class="noindent">By default, feedback is triggered by an attempt: </p><div role="article" class="problem-environment exercise" id="problem1"><a id="x1-165r1"></a> <div class="multiple-choice" id="problem2"><span class="choice correct " id="choice1">I’m correct</span> <span class="choice  " id="choice2">I’m wrong</span>
 </div>
 <div class="feedback" data-feedback="attempt" id="feedback3">I show up when this problem is attempted. </div>
 </div>
-<!--l. 29--><p class="noindent">Opció´on correct Feedback can be triggered by only correct answers: </p><div role="article" class="problem-environment exercise" id="problem4"><a id="x1-164r2"></a> <div class="multiple-choice" id="problem5"><span class="choice correct " id="choice3">I’m correct</span> <span class="choice  " id="choice4">I’m wrong</span> </div>
+<!--l. 29--><p class="noindent">Opció´on correct Feedback can be triggered by only correct answers: </p><div role="article" class="problem-environment exercise" id="problem4"><a id="x1-166r2"></a> <div class="multiple-choice" id="problem5"><span class="choice correct " id="choice3">I’m correct</span> <span class="choice  " id="choice4">I’m wrong</span> </div>
 <div class="feedback" data-feedback="correct" id="feedback6"> I show up when this problem is answered correctly. </div>
 </div>
-<div role="article" class="problem-environment problem" id="problem7"><a id="x1-165r3"></a> No, really, my favorite number is <script type="math/tex">y = \answer [format=integer,id=y]{17}</script>. (Type <script type="math/tex">x</script>. Type something larger than <script type="math/tex">17</script>. Type
+<div role="article" class="problem-environment problem" id="problem7"><a id="x1-167r3"></a> No, really, my favorite number is <script type="math/tex">y = \answer [format=integer,id=y]{17}</script>. (Type <script type="math/tex">x</script>. Type something larger than <script type="math/tex">17</script>. Type
 something smaller than <script type="math/tex">17</script>. Type <script type="math/tex">17</script>. <div class="feedback" data-feedback="attempt" id="feedback8"> You made a ﬁrst attempt! </div>
 <div class="feedback" data-feedback="script" id="feedback9"><script type="text/javascript">function feedback9() { return y>17; }</script> That number is TOO BIG. </div>
 <div class="feedback" data-feedback="script" id="feedback10"><script type="text/javascript">function feedback10() { return y<17; }</script> That number is too small. </div>

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2018.10.12)  5 DEC 2018 23:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2018.10.12)  5 DEC 2018 23:50
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1203,6 +1203,13 @@ Now handling font encoding PD1 ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.def
+File: ot1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding OT1 on input line 48.
+))
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2018/02/14 3.18 The Babel package
 
@@ -2042,12 +2049,12 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 28.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 28.
  ) 
 Here is how much of TeX's memory you used:
- 40185 strings out of 492983
- 882861 string characters out of 6134921
- 1364118 words of memory out of 5000000
- 42873 multiletter control sequences out of 15000+600000
+ 40332 strings out of 492983
+ 884172 string characters out of 6134921
+ 1364237 words of memory out of 5000000
+ 43015 multiletter control sequences out of 15000+600000
  5533 words of font info for 24 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,5n,101p,1533b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on hints.dvi (4 pages, 15240 bytes).
+Output written on hints.dvi (4 pages, 15336 bytes).
