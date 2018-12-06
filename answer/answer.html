@@ -13,11 +13,11 @@ Austin"/>
 <meta name="ximera" content="version 0.0.1"/> 
 <link href="https://ximera.osu.edu/public/stylesheets/standalone.css" rel="stylesheet" media="screen"/> 
 <script type="text/javascript" async="" src="https://ximera.osu.edu/public/javascripts/standalone.min.js"></script> 
-<meta name="dependency" content="dfe51ed8a861d12aa33c832f7cb61e79eda9353e preamble.tex"/><meta name="dependency" content="dfe51ed8a861d12aa33c832f7cb61e79eda9353e preamble.tex"/><meta name="dependency" content="37e557b9244a486fba273c66c2a11af93ee71011 answer/answer.tex"/></head><body> 
+<meta name="dependency" content="f22bc64e942fd62082d25b236983418ab7f62d19 preamble.tex"/><meta name="dependency" content="f22bc64e942fd62082d25b236983418ab7f62d19 preamble.tex"/><meta name="dependency" content="37e557b9244a486fba273c66c2a11af93ee71011 answer/answer.tex"/></head><body> 
 <div class="preamble"><script type="math/tex">\newenvironment {prompt}{}{}
 \newcommand {\ungraded }[0]{}
-\newcommand {\OT1\textexclamdown }[0]{!‘}
-\newcommand {\OT1\textquestiondown }[0]{?‘}
+\newcommand {\T1\textperthousand }[0]{\%\char 24 }
+\newcommand {\T1\textpertenthousand }[0]{\%\char 24\char 24 }
 \newcommand {\IfBabelLayout }[3]{#3}
 \newcommand {\babelnullhyphen }[0]{\char \hyphenchar \font }
 \newcommand {\?\quotedblbase }[0]{\UseTextSymbol {OT1}{\quotedblbase }}
@@ -175,8 +175,8 @@ Austin"/>
 \newcommand {\tcolorboxenvironment }[2]{\BeforeBeginEnvironment {#1}{\begin {tcolorbox}[savedelimiter={#1},#2]}\AfterEndEnvironment {#1}{\end {tcolorbox}}}
 \newcommand {\tcbpkgprefix }[0]{}
 \newcommand {\delimitertop }[0]{interior.north west}
-\newcommand {\OT1\textexclamdown }[0]{!‘}
-\newcommand {\OT1\textquestiondown }[0]{?‘}
+\newcommand {\T1\textperthousand }[0]{\%\char 24 }
+\newcommand {\T1\textpertenthousand }[0]{\%\char 24\char 24 }
 \newcommand {\HyperFirstAtBeginDocument }[0]{\AtBeginDocument }                                                                                            </script><script type="text/javascript"> 
 </script> 
 </div>
@@ -185,17 +185,17 @@ Austin"/>
 <div class="abstract">
 <!--l. 16--><p class="noindent">An example of various uses of <code>answer</code>
 </p></div>   <div class="maketitle"></div>
-xá´ax xá´ax xé´ex xí´ıx xó´ox xú´ux
-<!--l. 23--><p class="noindent">xá´ax xé´ex xí´ıx xó´ox xú´ux
+xáx xáx xéx xíx xóx xúx
+<!--l. 23--><p class="noindent">xáx xéx xíx xóx xúx
 </p><!--l. 25--><p class="noindent">A math answer
 </p><!--l. 27--><p class="noindent">Type <script type="math/tex">2</script>: <script type="math/tex">\answer {2}</script>
-</p><!--l. 29--><p class="noindent">Opció´on given (defecto false): Determines if answer is shown in handout mode. When
+</p><!--l. 29--><p class="noindent">Opción given (defecto false): Determines if answer is shown in handout mode. When
 given=true, show answer in handout mode, show answer in “given box” outside
 handout mode.
 </p><!--l. 32--><p class="noindent">Type 2: <script type="math/tex">\answer [given]{2}</script>
 </p><!--l. 34--><p class="noindent">When given=false, do not show answer in handout mode, show answer outside
 handout mode <script type="math/tex">\answer [given=false]{2}</script>
-</p><!--l. 37--><p class="noindent">Opció´on tolerance: Used for setting numeric answer tolerance for online student
+</p><!--l. 37--><p class="noindent">Opción tolerance: Used for setting numeric answer tolerance for online student
 input.
 </p><!--l. 39--><p class="noindent">Type <script type="math/tex">0.5\pm 0.2</script>: <script type="math/tex">\answer [tolerance=.2]{\frac {1}{2}}</script>
  

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.12)  5 DEC 2018 23:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.12)  6 DEC 2018 02:00
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -878,7 +878,14 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \openout8 = `theoremEnvironments.jax'.
 
 )
-(../preamble.tex (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+(../preamble.tex (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks53
 \inpenc@posthook=\toks54
@@ -1222,30 +1229,9 @@ Package babel Info: Making . an active character on input line 662.
 Package babel Info: Making < an active character on input line 707.
 Package babel Info: Making > an active character on input line 707.
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
-Package: microtype 2018/01/14 v2.7a Micro-typographical refinements (RS)
-\MT@toks=\toks56
-\MT@count=\count193
-LaTeX Info: Redefining \textls on input line 793.
-\MT@outer@kern=\dimen194
-LaTeX Info: Redefining \textmicrotypecontext on input line 1339.
-\MT@listname@count=\count194
-
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def
-File: microtype-pdftex.def 2018/01/14 v2.7a Definitions specific to pdftex (RS)
-
-LaTeX Info: Redefining \lsstyle on input line 913.
-LaTeX Info: Redefining \lslig on input line 913.
-\MT@outer@space=\skip62
-)
-Package microtype Info: Loading configuration file microtype.cfg.
-
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
-File: microtype.cfg 2018/01/14 v2.7a microtype main configuration file (RS)
-))
 (/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
-\c@lips@count=\count195
+\c@lips@count=\count193
 )
 (/home/eva/texmf/tex/latex/local/lnthm/lnthm.sty
 Package: lnthm Theorems in lesson notes
@@ -1258,21 +1244,21 @@ Package: tcolorbox 2018/01/12 version 4.12 text color boxes
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks57
-\verbatim@line=\toks58
+\every@verbatim=\toks56
+\verbatim@line=\toks57
 \verbatim@in@stream=\read3
 )
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count196
+\etb@tempcnta=\count194
 )
 \tcb@titlebox=\box45
 \tcb@upperbox=\box46
 \tcb@lowerbox=\box47
 \tcb@phantombox=\box48
-\c@tcbbreakpart=\count197
-\c@tcblayer=\count198
-\tcolorbox@number=\count199
+\c@tcbbreakpart=\count195
+\c@tcblayer=\count196
+\tcolorbox@number=\count197
 \tcb@temp=\box49
 \tcb@temp=\box50
 \tcb@temp=\box51
@@ -1302,27 +1288,27 @@ Library (tcolorbox): 'tcbprocessing.code.tex' version '4.12'
 Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
 Package shellesc Info: Unrestricted shell escape enabled on input line 67.
 ))
-\c@tcblisting=\count266
+\c@tcblisting=\count198
 )))
-\ln@box@indent=\skip63
-\ln@box@delimiter@width=\skip64
+\ln@box@indent=\skip62
+\ln@box@delimiter@width=\skip63
 )
 (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
 (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
 \@xs@message=\write11
-\integerpart=\count267
-\decimalpart=\count268
+\integerpart=\count199
+\decimalpart=\count266
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
-\c@thmno=\count269
-\c@dfnno=\count270
-\c@exmpno=\count271
-\c@prpno=\count272
-\c@lmmno=\count273
-\c@crlno=\count274
-\c@algno=\count275
-\c@rmkno=\count276
+\c@thmno=\count267
+\c@dfnno=\count268
+\c@exmpno=\count269
+\c@prpno=\count270
+\c@lmmno=\count271
+\c@crlno=\count272
+\c@algno=\count273
+\c@rmkno=\count274
 )
 (/home/eva/texmf/tex/latex/pgf/frontendlayer/libraries/tikzlibraryexternal.code
 .tex
@@ -1353,17 +1339,17 @@ LaTeX Font Info:    ... okay on input line 23.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count277
-\scratchdimen=\dimen195
+\scratchcounter=\count275
+\scratchdimen=\dimen194
 \scratchbox=\box57
-\nofMPsegments=\count278
-\nofMParguments=\count279
-\everyMPshowfont=\toks59
-\MPscratchCnt=\count280
-\MPscratchDim=\dimen196
-\MPnumerator=\count281
-\makeMPintoPDFobject=\count282
-\everyMPtoPDFconversion=\toks60
+\nofMPsegments=\count276
+\nofMParguments=\count277
+\everyMPshowfont=\toks58
+\MPscratchCnt=\count278
+\MPscratchDim=\dimen195
+\MPnumerator=\count279
+\makeMPintoPDFobject=\count280
+\everyMPtoPDFconversion=\toks59
 ) ABD: EveryShipout initializing macros
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
@@ -1371,7 +1357,7 @@ ick labels; missing features). Consider writing \pgfplotsset{compat=1.15} into
 your preamble.
  on input line 23.
 
-\c@lstlisting=\count283
+\c@lstlisting=\count281
 \AtBeginShipoutBox=\box58
 Package hyperref Info: Link coloring ON on input line 23.
 LaTeX Info: Redefining \ref on input line 23.
@@ -1383,37 +1369,15 @@ LaTeX Info: Redefining \nameref on input line 23.
 
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
-LaTeX Info: Redefining \microtypecontext on input line 23.
-Package microtype Info: Generating PDF output.
-Package microtype Info: Character protrusion enabled (level 2).
-Package microtype Info: Using default protrusion set `alltext'.
-Package microtype Info: Automatic font expansion enabled (level 2),
-(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
-Package microtype Info: Using default expansion set `basictext'.
-Package microtype Info: No adjustment of tracking.
-Package microtype Info: No adjustment of interword spacing.
-Package microtype Info: No adjustment of character kerning.
-Package microtype Info: Redefining babel's language switching commands.
-
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
-(RS)
-)
 LaTeX Font Info:    Try loading font information for U+msa on input line 28.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
 LaTeX Font Info:    Try loading font information for U+msb on input line 28.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ] [2] [3]
@@ -1430,24 +1394,25 @@ Package rerunfilecheck Info: File `theoremEnvironments.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 173.
  ) 
 Here is how much of TeX's memory you used:
- 36567 strings out of 492982
- 838497 string characters out of 6134895
- 1190211 words of memory out of 5000000
- 39413 multiletter control sequences out of 15000+600000
- 11815 words of font info for 60 fonts, out of 8000000 for 9000
+ 35186 strings out of 492982
+ 812102 string characters out of 6134895
+ 1128985 words of memory out of 5000000
+ 38080 multiletter control sequences out of 15000+600000
+ 16892 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,8n,98p,1062b,1051s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmti10.pfb>
-Output written on theoremEnvironments.pdf (3 pages, 98507 bytes).
+ 70i,8n,98p,1062b,1046s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf/fonts/type1/p
+ublic/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1
+200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/
+texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/pu
+blic/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsl10
+00.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb>
+Output written on theoremEnvironments.pdf (3 pages, 150710 bytes).
 PDF statistics:
- 96 PDF objects out of 1000 (max. 8388607)
- 83 compressed objects within 1 object stream
+ 105 PDF objects out of 1000 (max. 8388607)
+ 90 compressed objects within 1 object stream
  36 named destinations out of 1000 (max. 500000)
- 13845 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

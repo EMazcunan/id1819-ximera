@@ -1,6 +1,24 @@
 \newenvironment {prompt}{}{}
 \newcommand {\DeclareMathOperator }[2]{\@OldDeclareMathOperator {##1}{##2}\immediate \write \myfile {\unexpanded {\DeclareMathOperator }{\unexpanded {##1}}{\unexpanded {##2}}}}
 \newcommand {\ungraded }[0]{}
+\newcommand {\T1\` }[0]{\add@accent {0}}
+\newcommand {\T1\' }[0]{\add@accent {1}}
+\newcommand {\T1\^ }[0]{\add@accent {2}}
+\newcommand {\T1\~ }[0]{\add@accent {3}}
+\newcommand {\T1\" }[0]{\add@accent {4}}
+\newcommand {\T1\H }[0]{\add@accent {5}}
+\newcommand {\T1\r }[0]{\add@accent {6}}
+\newcommand {\T1\v }[0]{\add@accent {7}}
+\newcommand {\T1\u }[0]{\add@accent {8}}
+\newcommand {\T1\= }[0]{\add@accent {9}}
+\newcommand {\T1\. }[0]{\add@accent {10}}
+\newcommand {\T1\b }[1]{\hmode@bgroup \o@lign {\relax ##1\crcr \hidewidth \ltx@sh@ft {-3ex}\vbox to.2ex{\hbox {\char 9}\vss }\hidewidth }\egroup }
+\newcommand {\T1\c }[1]{\leavevmode \setbox \z@ \hbox {##1}\ifdim \ht \z@ =1ex\accent 11 ##1\else {\ooalign {\unhbox \z@ \crcr \hidewidth \char 11\hidewidth }}\fi }
+\newcommand {\T1\d }[1]{\hmode@bgroup \o@lign {\relax ##1\crcr \hidewidth \ltx@sh@ft {-1ex}.\hidewidth }\egroup }
+\newcommand {\T1\k }[1]{\hmode@bgroup \ooalign {\null ##1\crcr \hidewidth \char 12}\egroup }
+\newcommand {\T1\textogonekcentered }[1]{\hmode@bgroup \ooalign {\null ##1\crcr \hidewidth \char 12\hidewidth }\egroup }
+\newcommand {\T1\textperthousand }[0]{\%\char 24 }
+\newcommand {\T1\textpertenthousand }[0]{\%\char 24\char 24 }
 \newcommand {\bbl@trace }[1]{}
 \newcommand {\reserved@a }[0]{}
 \newcommand {\reserved@a }[0]{\bbl@error {Not yet available}{Find an armchair, sit down and wait}}
@@ -130,24 +148,6 @@
 \newcommand {\OT1\guillemotleft }[0]{\es@guillemot \ll {40}}
 \newcommand {\OT1\guillemotright }[0]{\es@guillemot \gg {41}}
 \newcommand {\es@scroman  }[0]{\es@xlsc \uppercase \@firstofone }
-\newcommand {\DeclareMicrotypeVariants }[1]{}
-\newcommand {\DeclareMicrotypeAlias }[2]{}
-\newcommand {\LoadMicrotypeFile }[1]{}
-\newcommand {\DeclareMicrotypeBabelHook }[2]{}
-\newcommand {\microtypesetup }[1]{}
-\newcommand {\microtypecontext }[1]{}
-\newcommand {\textmicrotypecontext }[2]{##2}
-\newcommand {\lsstyle }[0]{}
-\newcommand {\lslig }[1]{##1}
-\newcommand {\DeclareMicroTypeAlias }[0]{\MT@warning {\string \DeclareMicroTypeAlias  is deprecated. Please use\MessageBreak \string \DeclareMicrotypeAlias  instead}\let \DeclareMicroTypeAlias \DeclareMicrotypeAlias \DeclareMicrotypeAlias }
-\newcommand {\DeclareMicroTypeSet }[0]{\MT@warning {\string \DeclareMicroTypeSet  is deprecated. Please use\MessageBreak \string \DeclareMicrotypeSet  instead}\let \DeclareMicroTypeSet \DeclareMicrotypeSet \DeclareMicrotypeSet }
-\newcommand {\UseMicroTypeSet }[0]{\MT@warning {\string \UseMicroTypeSet  is deprecated. Please use\MessageBreak \string \UseMicrotypeSet  instead}\let \UseMicroTypeSet \UseMicrotypeSet \UseMicrotypeSet }
-\newcommand {\LoadMicroTypeFile }[0]{\MT@warning {\string \LoadMicroTypeFile  is deprecated. Please use\MessageBreak \string \LoadMicrotypeFile  instead}\let \LoadMicroTypeFile \LoadMicrotypeFile \LoadMicrotypeFile }
-\newcommand {\textls  }[0]{\@ifstar {\let \MT@ls@adjust@ \MT@ls@adjust@empty \MT@textls }{\let \MT@ls@adjust@ \MT@ls@adjust@relax \MT@textls }}
-\newcommand {\textmicrotypecontext  }[2]{{\microtypecontext {##1}##2}}
-\newcommand {\MT@DeclareMicrotypeAlias }[2]{\def \@tempb {##2}\@onelevel@sanitize \@tempb \MT@ifdefined@n@T {MT@##1@alias}{\MT@warning {Alias font family `\@tempb ' will override alias `\@nameuse {MT@##1@alias}'\MessageBreak for font family `##1'}}\MT@xdef@n {MT@##1@alias}{\@tempb }\MT@ifdefined@c@T \MT@family {\MT@glet \MT@familyalias \@tempb }\MT@end@catcodes }
-\newcommand {\lsstyle  }[0]{\not@math@alphabet \lsstyle \textls \MT@maybe@gobble@with@tikz {\aftergroup \glb@settings }\def \MT@feat {tr}\let \MT@tracking \MT@set@tr@codes \selectfont }
-\newcommand {\lslig  }[1]{{\MT@ifdefined@c@TF \MT@curr@ls {\escapechar \m@ne \MT@get@ls@basefont \MT@outer@kern =\dimexpr \MT@curr@ls sp * \fontdimen 6\font@name /2000\relax \kern \MT@outer@kern \font@name ##1\kern \MT@outer@kern }{##1}}}
 \newcommand {\lips@default }[0]{1-7}
 \newcommand {\setlipsumdefault }[1]{\renewcommand {\lips@default }{##1}}
 \newcommand {\lips@dolipsum }[0]{\ifnum \value {lips@count}<\lips@max \relax \addtocounter {lips@count}{1}\csname lipsum@\romannumeral \c@lips@count \endcsname \lips@dolipsum \fi }
@@ -521,8 +521,6 @@
 \newcommand {\.  }[0]{\@ifnextchar .{\es@dots }{\es@save@dot }}
 \newcommand {\%  }[0]{\es@sppercent \percentsign {}}
 \newcommand {\dotlessi  }[0]{\es@dotlessi }
-\newcommand {\microtypecontext  }[1]{\MT@setup@contexts \let \MT@reset@context \relax \MT@glet \glb@currsize \@empty \setkeys {MTC}{##1}\selectfont \MT@reset@context }
-\newcommand {\reserved@a }[1]{\setbox 0\vbox {\color@begingroup \everypar {}\parfillskip \z@skip \hsize \maxdimen \normalfont \pretolerance \m@ne \tolerance \m@ne \hbadness \z@ \showboxdepth \z@ \ ##1\color@endgroup }}
 \newcommand {\reserved@a }[2]{}
 \newcommand {\reserved@a }[0]{\AtBeginDocument }
 \newcommand {\reserved@a }[1]{}
