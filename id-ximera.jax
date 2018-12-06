@@ -86,16 +86,6 @@
 \newcommand {\spanishucmonthxiiname }[0]{Diciembre}
 \newcommand {\spanishtoday }[0]{\spanishdate {\year }{\month }{\day }}
 \newcommand {\spanishToday }[0]{\spanishDate {\year }{\month }{\day }}
-\newcommand {\DeclareMicrotypeVariants }[1]{}
-\newcommand {\DeclareMicrotypeAlias }[2]{}
-\newcommand {\LoadMicrotypeFile }[1]{}
-\newcommand {\DeclareMicrotypeBabelHook }[2]{}
-\newcommand {\microtypesetup }[1]{}
-\newcommand {\microtypecontext }[1]{}
-\newcommand {\textmicrotypecontext }[2]{#2}
-\newcommand {\lsstyle }[0]{}
-\newcommand {\lslig }[1]{#1}
-\newcommand {\textmicrotypecontext  }[2]{{\microtypecontext {#1}#2}}
 \newcommand {\lipsumexp }[0]{}
 \newcommand {\newrobustcmd }[0]{}
 \newcommand {\csshow }[1]{\begingroup \expandafter \endgroup \expandafter \show \csname #1\endcsname }
